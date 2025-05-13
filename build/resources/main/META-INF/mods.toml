@@ -63,6 +63,12 @@ Newline characters can be used and will be replaced properly.'''
     versionRange="[1.20.1,1.21)"
     ordering="NONE"
     side="BOTH"
+[[dependencies.createrealguns]]
+modId="geckolib"
+mandatory=true
+versionRange="[4.7.1.2]"
+ordering="NONE"
+side="BOTH"
 #[[dependencies.createrealguns]]
  #   modId="create"
   #  mandatory=true

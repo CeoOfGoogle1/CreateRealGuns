@@ -19,9 +19,22 @@ public class CreateRealGunsModTabs {
         REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, "createrealguns");
         CREATEREALGUNS = REGISTRY.register("create_real_guns", () -> {
             return CreativeModeTab.builder().title(Component.translatable("creativetab.create_real_guns")).icon(() -> {
-                return new ItemStack((ItemLike) CreateRealGunsModItems.CROWN.get());
+                return new ItemStack((ItemLike) CreateRealGunsModItems.INTERMEDIATE_CARTRIDGE.get());
             }).displayItems((parameters, tabData) -> {
-                tabData.accept((ItemLike) CreateRealGunsModItems.CROWN.get());
+                tabData.accept((ItemLike) CreateRealGunsModItems.PISTOL_CARTRIDGE.get());
+                tabData.accept((ItemLike) CreateRealGunsModItems.INTERMEDIATE_CARTRIDGE.get());
+                tabData.accept((ItemLike) CreateRealGunsModItems.FULL_POWER_CARTRIDGE.get());
+                tabData.accept((ItemLike) CreateRealGunsModItems.SHOTGUN_SHELL.get());
+                tabData.accept((ItemLike) CreateRealGunsModItems.PAPER_CARTRIDGE.get());
+                tabData.accept((ItemLike) CreateRealGunsModItems.FRAG_GRENADE.get());
+                tabData.accept((ItemLike) CreateRealGunsModItems.SMOKE_GRENADE.get());
+                tabData.accept((ItemLike) CreateRealGunsModItems.STUN_GRENADE.get());
+                tabData.accept((ItemLike) CreateRealGunsModItems.FLAMING_COCKTAIL.get());
+                tabData.accept((ItemLike) CreateRealGunsModItems.OLD_GRENADE.get());
+                tabData.accept((ItemLike) CreateRealGunsModItems.FRAG_GRENADE_CARTRIDGE.get());
+                tabData.accept((ItemLike) CreateRealGunsModItems.SMOKE_GRENADE_CARTRIDGE.get());
+                tabData.accept((ItemLike) CreateRealGunsModItems.STUN_GRENADE_CARTRIDGE.get());
+                tabData.accept((ItemLike) CreateRealGunsModItems.ROCKET_CARTRIDGE.get());
             }).build();
         });
     }
