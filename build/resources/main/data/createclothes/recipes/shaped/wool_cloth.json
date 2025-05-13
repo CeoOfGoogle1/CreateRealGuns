@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "tag": "minecraft:wool"
+    },
+    "D": {
+      "tag": "minecraft:dyes"
+    }
+  },
+  "pattern": [
+    "DDD",
+    "PPP"
+  ],
+  "result": {
+    "item": "createrealguns:cloth"
+  },
+  "show_notification": true
+}

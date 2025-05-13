@@ -1,0 +1,661 @@
+Java Launcher: C:\Program Files\Eclipse Adoptium\jdk-17.0.13.11-hotspot\bin\java.exe
+Arguments: '--input, C:\Users\David\Documents\GitHub\CreateRealGuns\build\libs\createrealguns-1.0-1.20.1.jar, --output, C:\Users\David\Documents\GitHub\CreateRealGuns\build\reobfJar\output.jar, --names, C:\Users\David\Documents\GitHub\CreateRealGuns\build\reobfJar\mappings.tsrg, --lib, C:\Users\David\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.3.0_mapped_parchment_2023.09.03-1.20.1\forge-1.20.1-47.3.0_mapped_parchment_2023.09.03-1.20.1-recomp.jar, --lib, C:\Users\David\.gradle\caches\forge_gradle\minecraft_repo\versions\1.20.1\client-extra.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlloader\1.20.1-47.3.0\547850469c8a336b4c60cb8619f6cd421e9e5f55\fmlloader-1.20.1-47.3.0.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarSelector\0.3.19\376cc9c8ea60720cf027c01fc033de915699801c\JarJarSelector-0.3.19.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarMetadata\0.3.19\83feaa9b770e6ac0e96ee4fc23fa89325c5fe2\JarJarMetadata-0.3.19.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\31.1-jre\60458f877d055d0c9114d9e1a2efb737b4bc282c\guava-31.1-jre.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\ca.weblite\java-objc-bridge\1.1\1227f9e0666314f9de41477e3ec277e542ed7f7b\java-objc-bridge-1.1.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\net.minecraftforge\forgespi\7.0.1\3b4972a0cdb135853dba219be61a79b22cff1309\forgespi-7.0.1.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mergetool\1.1.5\f3da18e12c696d35a47c82cbb2cc8b5aa15e1154\mergetool-1.1.5-api.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\24.0.1\13c5c75c4206580aa4d683bffee658caae6c9f43\annotations-24.0.1.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\cpw.mods\securejarhandler\2.1.10\51e6a22c6c716beb11e244bf5b8be480f51dd6b5\securejarhandler-2.1.10.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\net.minecraftforge\coremods\5.1.6\62fab3c3d59d37f8e15af311cb638c6f6123423\coremods-5.1.6.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\cpw.mods\modlauncher\10.0.9\6d9443f56f50bb85cea383686ff9c867391458b\modlauncher-10.0.9.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.openjdk.nashorn\nashorn-core\15.3\43977e804697048fc8d81d333a36c17d07a5b3dd\nashorn-core-15.3.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-commons\9.7\e86dda4696d3c185fcc95d8d311904e7ce38a53f\asm-commons-9.7.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\9.7\c0655519f24d92af2202cb681cd7c1569df6ead6\asm-util-9.7.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\9.7\e4a258b7eb96107106c0599f0061cfc1832fe07a\asm-analysis-9.7.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\9.7\e446a17b175bfb733b87c5c2560ccb4e57d69f1a\asm-tree-9.7.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\9.7\73d7b3086e14beb604ced229c302feff6449723\asm-9.7.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\net.minecraftforge\accesstransformers\8.0.4\272d240aa73f42195b2a68e2ebd8b701ecf41f63\accesstransformers-8.0.4.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.antlr\antlr4\4.9.1\e92af8ab33e428461927b484e90bb155a4f3a052\antlr4-4.9.1.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.antlr\antlr4-runtime\4.9.1\428664f05d2b7f7b7610204b5aa7c1763f62011a\antlr4-runtime-4.9.1.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.0\3b6be96aba3e323f3c918e8ef6a96312d82d76ad\fmlcore-1.20.1-47.3.0.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\net.minecraftforge\eventbus\6.0.5\699143dd438431d06b57416944f7cedbe52e1475\eventbus-6.0.5.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\net.minecraftforge\unsafe\0.2.0\54d7a0a5e8fdb71b973025caa46f341ae5904f39\unsafe-0.2.0.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\com.electronwill.night-config\toml\3.6.4\51d6cefb2b55ee55ee26b16391212fb2c7dfb4f4\toml-3.6.4.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\com.electronwill.night-config\core\3.6.4\510f174abbf1c947494db50ef2445683bd52c230\core-3.6.4.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.8.5\4433f50c07debefaed0553bd0068f4f48d449313\maven-artifact-3.8.5.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\net.jodah\typetools\0.6.3\a01aaa6ddaea9ec07ec4f209487b7a46a526283a\typetools-0.6.3.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\net.minecrell\terminalconsoleappender\1.2.0\96d02cd3b384ff015a8fef4223bcb4ccf1717c95\terminalconsoleappender-1.2.0.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.jline\jline-reader\3.12.1\4382ab1382c7b6f379377ed5f665dc2f6e1218bc\jline-reader-3.12.1.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.jline\jline-terminal\3.12.1\c777448314e050d980a6b697c140f3bfe9eb7416\jline-terminal-3.12.1.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.spongepowered\mixin\0.8.5\9d1c0c3a304ae6697ecd477218fa61b850bf57fc\mixin-0.8.5.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\cpw.mods\bootstraplauncher\1.1.2\c546e00443d8432cda6baa1c860346980742628\bootstraplauncher-1.1.2.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarFileSystems\0.3.19\2464eb7d6b9ddb9db36a82cf8a95193e5c6fe020\JarJarFileSystems-0.3.19.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlearlydisplay\1.20.1-47.3.0\91e33682894f35862e9ce29d633e3258120952f0\fmlearlydisplay-1.20.1-47.3.0.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.0\d7ebc62120f202109e300e084ca1a31a7b946a62\javafmllanguage-1.20.1-47.3.0.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.0\1bf3e845ea0ce750096da8c71c8364b188ab74d4\lowcodelanguage-1.20.1-47.3.0.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.0\6093682e943ddccbabf70539319d7f2fe64db2e7\mclanguage-1.20.1-47.3.0.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\com.github.oshi\oshi-core\6.2.2\54f5efc19bca95d709d9a37d19ffcbba3d21c1a6\oshi-core-6.2.2.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.10\dd9b193aef96e973d5a11ab13cd17430c2e4306b\gson-2.10.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\com.google.guava\failureaccess\1.0.1\1dcf1de382a0bf95a3d8b0849546c88bac1292c9\failureaccess-1.0.1.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j\71.1\9e7d3304c23f9ba5cb71915f7cce23231a57a445\icu4j-71.1.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\com.mojang\authlib\4.0.43\2ff9d747a77570a07a60d32ac77eb6162ad2a2d9\authlib-4.0.43.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\com.mojang\blocklist\1.0.10\5c685c5ffa94c4cd39496c7184c1d122e515ecef\blocklist-1.0.10.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\com.mojang\brigadier\1.1.8\5244ce82c3337bba4a196a3ce858bfaecc74404a\brigadier-1.1.8.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\com.mojang\datafixerupper\6.0.8\3ba4a30557a9b057760af4011f909ba619fc5125\datafixerupper-6.0.8.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\com.mojang\logging\1.1.1\832b8e6674a9b325a5175a3a6267dfaf34c85139\logging-1.1.1.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\com.mojang\patchy\2.2.10\da05971b07cbb379d002cf7eaec6a2048211fefc\patchy-2.2.10.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.17.9\3cad216e3a7f0c19b4b394388bc9ffc446f13b14\text2speech-1.17.9.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.5.13\e5f6cae5ca7ecaac1ec2827a9e2d65ae2869cada\httpclient-4.5.13.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.15\49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d\commons-codec-1.15.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.11.0\a2503f302b11ebde7ebc3df41daebe0e4eea3689\commons-io-2.11.0.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.2\4bfc12adfe4842bf07b657f0369c4cb522955686\commons-logging-1.2.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\io.netty\netty-handler\4.1.82.Final\644041d1fa96a5d3130a29e8978630d716d76e38\netty-handler-4.1.82.Final.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec\4.1.82.Final\b77200379acb345a9ffdece1c605e591ac3e4e0a\netty-codec-4.1.82.Final.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-classes-epoll\4.1.82.Final\e7c7dd18deac93105797f30057c912651ea76521\netty-transport-classes-epoll-4.1.82.Final.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-unix-common\4.1.82.Final\3e895b35ca1b8a0eca56cacff4c2dde5d2c6abce\netty-transport-native-unix-common-4.1.82.Final.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport\4.1.82.Final\e431a218d91acb6476ccad5f5aafde50aa3945ca\netty-transport-4.1.82.Final.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\io.netty\netty-buffer\4.1.82.Final\a544270cf1ae8b8077082f5036436a9a9971ea71\netty-buffer-4.1.82.Final.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\io.netty\netty-resolver\4.1.82.Final\38f665ae8dcd29032eea31245ba7806bed2e0fa8\netty-resolver-4.1.82.Final.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\io.netty\netty-common\4.1.82.Final\22d148e85c3f5ebdacc0ce1f5aabb1d420f73f3\netty-common-4.1.82.Final.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\it.unimi.dsi\fastutil\8.5.9\bb7ea75ecdb216654237830b3a96d87ad91f8cc5\fastutil-8.5.9.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna-platform\5.12.1\97406a297c852f4a41e688a176ec675f72e8329\jna-platform-5.12.1.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\5.12.1\b1e93a735caea94f503e95e6fe79bf9cdc1e985d\jna-5.12.1.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.4\4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c\jopt-simple-5.0.4.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.21\4ec95b60d4e86b5c95a0e919cb172a0af98011ef\commons-compress-1.21.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.12.0\c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e\commons-lang3-3.12.0.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.4.15\7f2e0c573eaa7a74bac2e89b359e1f73d92a0a1d\httpcore-4.4.15.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.19.0\3b6eeb4de4c49c0fe38a4ee27188ff5fee44d0bb\log4j-core-2.19.0.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-slf4j2-impl\2.19.0\5c04bfdd63ce9dceb2e284b81e96b6a70010ee10\log4j-slf4j2-impl-2.19.0.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.19.0\ea1b37f38c327596b216542bc636cfdc0b8036fa\log4j-api-2.19.0.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.joml\joml\1.10.5\22566d58af70ad3d72308bab63b8339906deb649\joml-1.10.5.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\cbac1b8d30cb4795149c1ef540f912671a8616d0\lwjgl-glfw-3.3.1.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\ed892f945cf7e79c8756796f32d00fa4ceaf573b\lwjgl-glfw-3.3.1-natives-windows.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\beda65ee503443e60aa196d58ed31f8d001dc22a\lwjgl-glfw-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\b997e3391d6ce8f05487e7335d95c606043884a1\lwjgl-glfw-3.3.1-natives-windows-x86.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\a817bcf213db49f710603677457567c37d53e103\lwjgl-jemalloc-3.3.1.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\948a89b76a16aa324b046ae9308891216ffce5f9\lwjgl-jemalloc-3.3.1-natives-windows.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\cae85c4edb219c88b6a0c26a87955ad98dc9519d\lwjgl-jemalloc-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\fb476c8ec110e1c137ad3ce8a7f7bfe6b11c6324\lwjgl-jemalloc-3.3.1-natives-windows-x86.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\2623a6b8ae1dfcd880738656a9f0243d2e6840bd\lwjgl-openal-3.3.1.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\30a474d0e57193d7bc128849a3ab66bc9316fdb1\lwjgl-openal-3.3.1-natives-windows.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\40d65f1a7368a2aa47336f9cb69f5a190cf9975a\lwjgl-openal-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\888349f7b1be6fbae58bf8edfb9ef12def04c4e3\lwjgl-openal-3.3.1-natives-windows-x86.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\831a5533a21a5f4f81bbc51bb13e9899319b5411\lwjgl-opengl-3.3.1.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\c1807e9bd571402787d7e37e3029776ae2513bb8\lwjgl-opengl-3.3.1-natives-windows.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\527d78f1e9056aff3ed02ce93019c73c5e8f1721\lwjgl-opengl-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\deef3eb9b178ff2ff3ce893cc72ae741c3a17974\lwjgl-opengl-3.3.1-natives-windows-x86.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\b119297cf8ed01f247abe8685857f8e7fcf5980f\lwjgl-stb-3.3.1.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\86315914ac119efdb02dc9e8e978ade84f1702af\lwjgl-stb-3.3.1-natives-windows.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\fde63cdd2605c00636721a6c8b961e41d1f6b247\lwjgl-stb-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\a8d41f419eecb430b7c91ea2ce2c5c451cae2091\lwjgl-stb-3.3.1-natives-windows-x86.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\ff1914111ef2e3e0110ef2dabc8d8cdaad82347\lwjgl-tinyfd-3.3.1.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\a5d830475ec0958d9fdba1559efa99aef211e6ff\lwjgl-tinyfd-3.3.1-natives-windows.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\83a5e780df610829ff3a737822b4f931cffecd91\lwjgl-tinyfd-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\842eedd876fae354abc308c98a263f6bbc9e8a4d\lwjgl-tinyfd-3.3.1-natives-windows-x86.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\ae58664f88e18a9bb2c77b063833ca7aaec484cb\lwjgl-3.3.1.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\36c37f16ab611b3aa11f3bcf80b1d509b4ce6b\lwjgl-3.3.1-natives-windows.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\f46cadcf95675908fd3a550d63d9d709cb68998\lwjgl-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\3b14f4beae9dd39791ec9e12190a9380cd8a3ce6\lwjgl-3.3.1-natives-windows-x86.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\com.machinezoo.noexception\noexception\1.7.1\b65330c98e38a1f915fa54a6e5eca496505e3f0a\noexception-1.7.1.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\2.0.1\f48d81adce2abf5ad3cfe463df517952749e03bc\slf4j-api-2.0.1.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.codehaus.plexus\plexus-utils\3.3.0\cf43b5391de623b36fe066a21127baef82c64022\plexus-utils-3.3.0.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\com.google.guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\b421526c5f297295adef1c886e5246c39d4ac629\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.checkerframework\checker-qual\3.12.0\d5692f0526415fcc6de94bb5bfbd3afd9dd3b3e5\checker-qual-3.12.0.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.11.0\c5a0ace696d3f8b1c1d8cc036d8c03cc0cbe6b69\error_prone_annotations-2.11.0.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annotations\1.3\ba035118bc8bac37d7eff77700720999acd9986d\j2objc-annotations-1.3.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.antlr\ST4\4.3\92f2c1ad8d84abcbeead6cf7f2c53a04166293c2\ST4-4.3.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.antlr\antlr-runtime\3.5.2\cd9cd41361c155f3af0f653009dcecb08d8b4afd\antlr-runtime-3.5.2.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.abego.treelayout\org.abego.treelayout.core\1.0.3\457216e8e6578099ae63667bb1e4439235892028\org.abego.treelayout.core-1.0.3.jar, --lib, C:\Users\David\.gradle\caches\modules-2\files-2.1\org.glassfish\javax.json\1.0.4\3178f73569fd7a1e5ffc464e680f7a8cc784b85a\javax.json-1.0.4.jar, --disable-abstract-param'
+Classpath:
+ - C:\Users\David\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\ForgeAutoRenamingTool\1.0.6\ForgeAutoRenamingTool-1.0.6-all.jar
+Working directory: C:\Users\David\Documents\GitHub\CreateRealGuns\build\reobfJar
+Main class: net.minecraftforge.fart.Main
+====================================
+Forge Auto Renaming Tool v1.0.6
+lib: C:\Users\David\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.3.0_mapped_parchment_2023.09.03-1.20.1\forge-1.20.1-47.3.0_mapped_parchment_2023.09.03-1.20.1-recomp.jar
+lib: C:\Users\David\.gradle\caches\forge_gradle\minecraft_repo\versions\1.20.1\client-extra.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlloader\1.20.1-47.3.0\547850469c8a336b4c60cb8619f6cd421e9e5f55\fmlloader-1.20.1-47.3.0.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarSelector\0.3.19\376cc9c8ea60720cf027c01fc033de915699801c\JarJarSelector-0.3.19.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarMetadata\0.3.19\83feaa9b770e6ac0e96ee4fc23fa89325c5fe2\JarJarMetadata-0.3.19.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\31.1-jre\60458f877d055d0c9114d9e1a2efb737b4bc282c\guava-31.1-jre.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\ca.weblite\java-objc-bridge\1.1\1227f9e0666314f9de41477e3ec277e542ed7f7b\java-objc-bridge-1.1.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\net.minecraftforge\forgespi\7.0.1\3b4972a0cdb135853dba219be61a79b22cff1309\forgespi-7.0.1.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mergetool\1.1.5\f3da18e12c696d35a47c82cbb2cc8b5aa15e1154\mergetool-1.1.5-api.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\24.0.1\13c5c75c4206580aa4d683bffee658caae6c9f43\annotations-24.0.1.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\cpw.mods\securejarhandler\2.1.10\51e6a22c6c716beb11e244bf5b8be480f51dd6b5\securejarhandler-2.1.10.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\net.minecraftforge\coremods\5.1.6\62fab3c3d59d37f8e15af311cb638c6f6123423\coremods-5.1.6.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\cpw.mods\modlauncher\10.0.9\6d9443f56f50bb85cea383686ff9c867391458b\modlauncher-10.0.9.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.openjdk.nashorn\nashorn-core\15.3\43977e804697048fc8d81d333a36c17d07a5b3dd\nashorn-core-15.3.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-commons\9.7\e86dda4696d3c185fcc95d8d311904e7ce38a53f\asm-commons-9.7.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\9.7\c0655519f24d92af2202cb681cd7c1569df6ead6\asm-util-9.7.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\9.7\e4a258b7eb96107106c0599f0061cfc1832fe07a\asm-analysis-9.7.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\9.7\e446a17b175bfb733b87c5c2560ccb4e57d69f1a\asm-tree-9.7.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\9.7\73d7b3086e14beb604ced229c302feff6449723\asm-9.7.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\net.minecraftforge\accesstransformers\8.0.4\272d240aa73f42195b2a68e2ebd8b701ecf41f63\accesstransformers-8.0.4.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.antlr\antlr4\4.9.1\e92af8ab33e428461927b484e90bb155a4f3a052\antlr4-4.9.1.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.antlr\antlr4-runtime\4.9.1\428664f05d2b7f7b7610204b5aa7c1763f62011a\antlr4-runtime-4.9.1.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.0\3b6be96aba3e323f3c918e8ef6a96312d82d76ad\fmlcore-1.20.1-47.3.0.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\net.minecraftforge\eventbus\6.0.5\699143dd438431d06b57416944f7cedbe52e1475\eventbus-6.0.5.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\net.minecraftforge\unsafe\0.2.0\54d7a0a5e8fdb71b973025caa46f341ae5904f39\unsafe-0.2.0.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\com.electronwill.night-config\toml\3.6.4\51d6cefb2b55ee55ee26b16391212fb2c7dfb4f4\toml-3.6.4.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\com.electronwill.night-config\core\3.6.4\510f174abbf1c947494db50ef2445683bd52c230\core-3.6.4.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.8.5\4433f50c07debefaed0553bd0068f4f48d449313\maven-artifact-3.8.5.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\net.jodah\typetools\0.6.3\a01aaa6ddaea9ec07ec4f209487b7a46a526283a\typetools-0.6.3.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\net.minecrell\terminalconsoleappender\1.2.0\96d02cd3b384ff015a8fef4223bcb4ccf1717c95\terminalconsoleappender-1.2.0.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.jline\jline-reader\3.12.1\4382ab1382c7b6f379377ed5f665dc2f6e1218bc\jline-reader-3.12.1.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.jline\jline-terminal\3.12.1\c777448314e050d980a6b697c140f3bfe9eb7416\jline-terminal-3.12.1.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.spongepowered\mixin\0.8.5\9d1c0c3a304ae6697ecd477218fa61b850bf57fc\mixin-0.8.5.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\cpw.mods\bootstraplauncher\1.1.2\c546e00443d8432cda6baa1c860346980742628\bootstraplauncher-1.1.2.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarFileSystems\0.3.19\2464eb7d6b9ddb9db36a82cf8a95193e5c6fe020\JarJarFileSystems-0.3.19.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlearlydisplay\1.20.1-47.3.0\91e33682894f35862e9ce29d633e3258120952f0\fmlearlydisplay-1.20.1-47.3.0.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.0\d7ebc62120f202109e300e084ca1a31a7b946a62\javafmllanguage-1.20.1-47.3.0.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.0\1bf3e845ea0ce750096da8c71c8364b188ab74d4\lowcodelanguage-1.20.1-47.3.0.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.0\6093682e943ddccbabf70539319d7f2fe64db2e7\mclanguage-1.20.1-47.3.0.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\com.github.oshi\oshi-core\6.2.2\54f5efc19bca95d709d9a37d19ffcbba3d21c1a6\oshi-core-6.2.2.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.10\dd9b193aef96e973d5a11ab13cd17430c2e4306b\gson-2.10.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\com.google.guava\failureaccess\1.0.1\1dcf1de382a0bf95a3d8b0849546c88bac1292c9\failureaccess-1.0.1.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j\71.1\9e7d3304c23f9ba5cb71915f7cce23231a57a445\icu4j-71.1.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\com.mojang\authlib\4.0.43\2ff9d747a77570a07a60d32ac77eb6162ad2a2d9\authlib-4.0.43.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\com.mojang\blocklist\1.0.10\5c685c5ffa94c4cd39496c7184c1d122e515ecef\blocklist-1.0.10.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\com.mojang\brigadier\1.1.8\5244ce82c3337bba4a196a3ce858bfaecc74404a\brigadier-1.1.8.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\com.mojang\datafixerupper\6.0.8\3ba4a30557a9b057760af4011f909ba619fc5125\datafixerupper-6.0.8.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\com.mojang\logging\1.1.1\832b8e6674a9b325a5175a3a6267dfaf34c85139\logging-1.1.1.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\com.mojang\patchy\2.2.10\da05971b07cbb379d002cf7eaec6a2048211fefc\patchy-2.2.10.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.17.9\3cad216e3a7f0c19b4b394388bc9ffc446f13b14\text2speech-1.17.9.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.5.13\e5f6cae5ca7ecaac1ec2827a9e2d65ae2869cada\httpclient-4.5.13.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.15\49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d\commons-codec-1.15.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.11.0\a2503f302b11ebde7ebc3df41daebe0e4eea3689\commons-io-2.11.0.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.2\4bfc12adfe4842bf07b657f0369c4cb522955686\commons-logging-1.2.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\io.netty\netty-handler\4.1.82.Final\644041d1fa96a5d3130a29e8978630d716d76e38\netty-handler-4.1.82.Final.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec\4.1.82.Final\b77200379acb345a9ffdece1c605e591ac3e4e0a\netty-codec-4.1.82.Final.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-classes-epoll\4.1.82.Final\e7c7dd18deac93105797f30057c912651ea76521\netty-transport-classes-epoll-4.1.82.Final.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-unix-common\4.1.82.Final\3e895b35ca1b8a0eca56cacff4c2dde5d2c6abce\netty-transport-native-unix-common-4.1.82.Final.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport\4.1.82.Final\e431a218d91acb6476ccad5f5aafde50aa3945ca\netty-transport-4.1.82.Final.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\io.netty\netty-buffer\4.1.82.Final\a544270cf1ae8b8077082f5036436a9a9971ea71\netty-buffer-4.1.82.Final.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\io.netty\netty-resolver\4.1.82.Final\38f665ae8dcd29032eea31245ba7806bed2e0fa8\netty-resolver-4.1.82.Final.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\io.netty\netty-common\4.1.82.Final\22d148e85c3f5ebdacc0ce1f5aabb1d420f73f3\netty-common-4.1.82.Final.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\it.unimi.dsi\fastutil\8.5.9\bb7ea75ecdb216654237830b3a96d87ad91f8cc5\fastutil-8.5.9.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna-platform\5.12.1\97406a297c852f4a41e688a176ec675f72e8329\jna-platform-5.12.1.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\5.12.1\b1e93a735caea94f503e95e6fe79bf9cdc1e985d\jna-5.12.1.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.4\4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c\jopt-simple-5.0.4.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.21\4ec95b60d4e86b5c95a0e919cb172a0af98011ef\commons-compress-1.21.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.12.0\c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e\commons-lang3-3.12.0.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.4.15\7f2e0c573eaa7a74bac2e89b359e1f73d92a0a1d\httpcore-4.4.15.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.19.0\3b6eeb4de4c49c0fe38a4ee27188ff5fee44d0bb\log4j-core-2.19.0.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-slf4j2-impl\2.19.0\5c04bfdd63ce9dceb2e284b81e96b6a70010ee10\log4j-slf4j2-impl-2.19.0.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.19.0\ea1b37f38c327596b216542bc636cfdc0b8036fa\log4j-api-2.19.0.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.joml\joml\1.10.5\22566d58af70ad3d72308bab63b8339906deb649\joml-1.10.5.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\cbac1b8d30cb4795149c1ef540f912671a8616d0\lwjgl-glfw-3.3.1.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\ed892f945cf7e79c8756796f32d00fa4ceaf573b\lwjgl-glfw-3.3.1-natives-windows.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\beda65ee503443e60aa196d58ed31f8d001dc22a\lwjgl-glfw-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\b997e3391d6ce8f05487e7335d95c606043884a1\lwjgl-glfw-3.3.1-natives-windows-x86.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\a817bcf213db49f710603677457567c37d53e103\lwjgl-jemalloc-3.3.1.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\948a89b76a16aa324b046ae9308891216ffce5f9\lwjgl-jemalloc-3.3.1-natives-windows.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\cae85c4edb219c88b6a0c26a87955ad98dc9519d\lwjgl-jemalloc-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\fb476c8ec110e1c137ad3ce8a7f7bfe6b11c6324\lwjgl-jemalloc-3.3.1-natives-windows-x86.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\2623a6b8ae1dfcd880738656a9f0243d2e6840bd\lwjgl-openal-3.3.1.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\30a474d0e57193d7bc128849a3ab66bc9316fdb1\lwjgl-openal-3.3.1-natives-windows.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\40d65f1a7368a2aa47336f9cb69f5a190cf9975a\lwjgl-openal-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\888349f7b1be6fbae58bf8edfb9ef12def04c4e3\lwjgl-openal-3.3.1-natives-windows-x86.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\831a5533a21a5f4f81bbc51bb13e9899319b5411\lwjgl-opengl-3.3.1.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\c1807e9bd571402787d7e37e3029776ae2513bb8\lwjgl-opengl-3.3.1-natives-windows.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\527d78f1e9056aff3ed02ce93019c73c5e8f1721\lwjgl-opengl-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\deef3eb9b178ff2ff3ce893cc72ae741c3a17974\lwjgl-opengl-3.3.1-natives-windows-x86.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\b119297cf8ed01f247abe8685857f8e7fcf5980f\lwjgl-stb-3.3.1.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\86315914ac119efdb02dc9e8e978ade84f1702af\lwjgl-stb-3.3.1-natives-windows.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\fde63cdd2605c00636721a6c8b961e41d1f6b247\lwjgl-stb-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\a8d41f419eecb430b7c91ea2ce2c5c451cae2091\lwjgl-stb-3.3.1-natives-windows-x86.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\ff1914111ef2e3e0110ef2dabc8d8cdaad82347\lwjgl-tinyfd-3.3.1.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\a5d830475ec0958d9fdba1559efa99aef211e6ff\lwjgl-tinyfd-3.3.1-natives-windows.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\83a5e780df610829ff3a737822b4f931cffecd91\lwjgl-tinyfd-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\842eedd876fae354abc308c98a263f6bbc9e8a4d\lwjgl-tinyfd-3.3.1-natives-windows-x86.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\ae58664f88e18a9bb2c77b063833ca7aaec484cb\lwjgl-3.3.1.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\36c37f16ab611b3aa11f3bcf80b1d509b4ce6b\lwjgl-3.3.1-natives-windows.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\f46cadcf95675908fd3a550d63d9d709cb68998\lwjgl-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\3b14f4beae9dd39791ec9e12190a9380cd8a3ce6\lwjgl-3.3.1-natives-windows-x86.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\com.machinezoo.noexception\noexception\1.7.1\b65330c98e38a1f915fa54a6e5eca496505e3f0a\noexception-1.7.1.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\2.0.1\f48d81adce2abf5ad3cfe463df517952749e03bc\slf4j-api-2.0.1.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.codehaus.plexus\plexus-utils\3.3.0\cf43b5391de623b36fe066a21127baef82c64022\plexus-utils-3.3.0.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\com.google.guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\b421526c5f297295adef1c886e5246c39d4ac629\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.checkerframework\checker-qual\3.12.0\d5692f0526415fcc6de94bb5bfbd3afd9dd3b3e5\checker-qual-3.12.0.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.11.0\c5a0ace696d3f8b1c1d8cc036d8c03cc0cbe6b69\error_prone_annotations-2.11.0.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annotations\1.3\ba035118bc8bac37d7eff77700720999acd9986d\j2objc-annotations-1.3.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.antlr\ST4\4.3\92f2c1ad8d84abcbeead6cf7f2c53a04166293c2\ST4-4.3.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.antlr\antlr-runtime\3.5.2\cd9cd41361c155f3af0f653009dcecb08d8b4afd\antlr-runtime-3.5.2.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.abego.treelayout\org.abego.treelayout.core\1.0.3\457216e8e6578099ae63667bb1e4439235892028\org.abego.treelayout.core-1.0.3.jar
+lib: C:\Users\David\.gradle\caches\modules-2\files-2.1\org.glassfish\javax.json\1.0.4\3178f73569fd7a1e5ffc464e680f7a8cc784b85a\javax.json-1.0.4.jar
+log: null
+input: C:\Users\David\Documents\GitHub\CreateRealGuns\build\libs\createrealguns-1.0-1.20.1.jar
+output: C:\Users\David\Documents\GitHub\CreateRealGuns\build\reobfJar\output.jar
+threads: 12
+Names: C:\Users\David\Documents\GitHub\CreateRealGuns\build\reobfJar\mappings.tsrg(reversed: false)
+Fix Annotations: false
+Fix Records: false
+Fix Identifiers: false
+Fix SourceFile: false
+Fix Line Numbers: false
+Strip codesigning signatures: false
+Adding Libraries to Inheritance
+Reading Input: C:\Users\David\Documents\GitHub\CreateRealGuns\build\libs\createrealguns-1.0-1.20.1.jar
+Adding input to inheritance map
+Processing entries
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/BrownBootsItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/ArmorMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6230_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/BlackBootsItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/ArmorMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6230_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/BrownBootsItem$1/getEnchantmentValue()I from net/minecraft/world/item/ArmorMaterial/getEnchantmentValue()I: getEnchantmentValue -> m_6646_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/BucketHatItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/ArmorMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6230_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/BrownBootsItem$1/getKnockbackResistance()F from net/minecraft/world/item/ArmorMaterial/getKnockbackResistance()F: getKnockbackResistance -> m_6649_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/BlackBootsItem$1/getEnchantmentValue()I from net/minecraft/world/item/ArmorMaterial/getEnchantmentValue()I: getEnchantmentValue -> m_6646_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/BrownBootsItem$1/getToughness()F from net/minecraft/world/item/ArmorMaterial/getToughness()F: getToughness -> m_6651_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/BlackBootsItem$1/getKnockbackResistance()F from net/minecraft/world/item/ArmorMaterial/getKnockbackResistance()F: getKnockbackResistance -> m_6649_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/BucketHatItem$1/getEnchantmentValue()I from net/minecraft/world/item/ArmorMaterial/getEnchantmentValue()I: getEnchantmentValue -> m_6646_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/BucketHatItem$1/getKnockbackResistance()F from net/minecraft/world/item/ArmorMaterial/getKnockbackResistance()F: getKnockbackResistance -> m_6649_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/BucketHatItem$1/getToughness()F from net/minecraft/world/item/ArmorMaterial/getToughness()F: getToughness -> m_6651_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/BucketHatItem$1/getName()Ljava/lang/String; from net/minecraft/world/item/ArmorMaterial/getName()Ljava/lang/String;: getName -> m_6082_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/BucketHatItem$1/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDefenseForType -> m_7366_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/BucketHatItem$1/getEquipSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/item/ArmorMaterial/getEquipSound()Lnet/minecraft/sounds/SoundEvent;: getEquipSound -> m_7344_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/BlackBootsItem$1/getToughness()F from net/minecraft/world/item/ArmorMaterial/getToughness()F: getToughness -> m_6651_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/BrownBootsItem$1/getName()Ljava/lang/String; from net/minecraft/world/item/ArmorMaterial/getName()Ljava/lang/String;: getName -> m_6082_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/BlackBootsItem$1/getName()Ljava/lang/String; from net/minecraft/world/item/ArmorMaterial/getName()Ljava/lang/String;: getName -> m_6082_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/BrownBootsItem$1/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDefenseForType -> m_7366_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/BucketHatItem$1/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDurabilityForType -> m_266425_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/BrownBootsItem$1/getEquipSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/item/ArmorMaterial/getEquipSound()Lnet/minecraft/sounds/SoundEvent;: getEquipSound -> m_7344_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/BrownBootsItem$1/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDurabilityForType -> m_266425_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/BlackBootsItem$1/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDefenseForType -> m_7366_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/BlackBootsItem$1/getEquipSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/item/ArmorMaterial/getEquipSound()Lnet/minecraft/sounds/SoundEvent;: getEquipSound -> m_7344_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/BlackBootsItem$1/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDurabilityForType -> m_266425_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/CapItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/ArmorMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6230_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/CapItem$1/getEnchantmentValue()I from net/minecraft/world/item/ArmorMaterial/getEnchantmentValue()I: getEnchantmentValue -> m_6646_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/CapItem$1/getKnockbackResistance()F from net/minecraft/world/item/ArmorMaterial/getKnockbackResistance()F: getKnockbackResistance -> m_6649_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/CapItem$1/getToughness()F from net/minecraft/world/item/ArmorMaterial/getToughness()F: getToughness -> m_6651_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/CapItem$1/getName()Ljava/lang/String; from net/minecraft/world/item/ArmorMaterial/getName()Ljava/lang/String;: getName -> m_6082_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/CapItem$1/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDefenseForType -> m_7366_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/CapItem$1/getEquipSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/item/ArmorMaterial/getEquipSound()Lnet/minecraft/sounds/SoundEvent;: getEquipSound -> m_7344_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/CapItem$1/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDurabilityForType -> m_266425_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/CrownItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/ArmorMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6230_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/CrownItem$1/getEnchantmentValue()I from net/minecraft/world/item/ArmorMaterial/getEnchantmentValue()I: getEnchantmentValue -> m_6646_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/CrownItem$1/getKnockbackResistance()F from net/minecraft/world/item/ArmorMaterial/getKnockbackResistance()F: getKnockbackResistance -> m_6649_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/CrownItem$1/getToughness()F from net/minecraft/world/item/ArmorMaterial/getToughness()F: getToughness -> m_6651_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/CrownItem$1/getName()Ljava/lang/String; from net/minecraft/world/item/ArmorMaterial/getName()Ljava/lang/String;: getName -> m_6082_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/CrownItem$1/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDefenseForType -> m_7366_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/CrownItem$1/getEquipSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/item/ArmorMaterial/getEquipSound()Lnet/minecraft/sounds/SoundEvent;: getEquipSound -> m_7344_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/CrownItem$1/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDurabilityForType -> m_266425_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/DesertCamoItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/ArmorMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6230_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/DesertCamoItem$1/getEnchantmentValue()I from net/minecraft/world/item/ArmorMaterial/getEnchantmentValue()I: getEnchantmentValue -> m_6646_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/DesertCamoItem$1/getKnockbackResistance()F from net/minecraft/world/item/ArmorMaterial/getKnockbackResistance()F: getKnockbackResistance -> m_6649_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/DesertCamoItem$1/getToughness()F from net/minecraft/world/item/ArmorMaterial/getToughness()F: getToughness -> m_6651_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/DesertCamoItem$1/getName()Ljava/lang/String; from net/minecraft/world/item/ArmorMaterial/getName()Ljava/lang/String;: getName -> m_6082_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/DesertCamoItem$1/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDefenseForType -> m_7366_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/DesertCamoItem$1/getEquipSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/item/ArmorMaterial/getEquipSound()Lnet/minecraft/sounds/SoundEvent;: getEquipSound -> m_7344_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/DesertCamoItem$1/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDurabilityForType -> m_266425_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/model/ModelBucketHat/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/model/ModelBucketHat/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V from net/minecraft/client/model/Model/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V: renderToBuffer -> m_7695_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/model/ModelCap/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/model/ModelCap/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V from net/minecraft/client/model/Model/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V: renderToBuffer -> m_7695_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/model/ModelCoat/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/model/ModelCoat/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V from net/minecraft/client/model/Model/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V: renderToBuffer -> m_7695_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/model/ModelCrown/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/model/ModelCrown/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V from net/minecraft/client/model/Model/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V: renderToBuffer -> m_7695_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/model/ModelHelmet/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/model/ModelHelmet/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V from net/minecraft/client/model/Model/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V: renderToBuffer -> m_7695_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/model/ModelOfficerCap/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/model/ModelOfficerCap/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V from net/minecraft/client/model/Model/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V: renderToBuffer -> m_7695_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/model/ModelTricorn/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/model/ModelTricorn/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V from net/minecraft/client/model/Model/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V: renderToBuffer -> m_7695_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/model/ModelTunic/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/model/ModelTunic/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V from net/minecraft/client/model/Model/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V: renderToBuffer -> m_7695_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/model/ModelVest/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/model/ModelVest/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V from net/minecraft/client/model/Model/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V: renderToBuffer -> m_7695_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/DirtCamoItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/ArmorMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6230_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/DirtCamoItem$1/getEnchantmentValue()I from net/minecraft/world/item/ArmorMaterial/getEnchantmentValue()I: getEnchantmentValue -> m_6646_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/DirtCamoItem$1/getKnockbackResistance()F from net/minecraft/world/item/ArmorMaterial/getKnockbackResistance()F: getKnockbackResistance -> m_6649_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/DirtCamoItem$1/getToughness()F from net/minecraft/world/item/ArmorMaterial/getToughness()F: getToughness -> m_6651_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/DirtCamoItem$1/getName()Ljava/lang/String; from net/minecraft/world/item/ArmorMaterial/getName()Ljava/lang/String;: getName -> m_6082_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/DirtCamoItem$1/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDefenseForType -> m_7366_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/DirtCamoItem$1/getEquipSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/item/ArmorMaterial/getEquipSound()Lnet/minecraft/sounds/SoundEvent;: getEquipSound -> m_7344_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/DirtCamoItem$1/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDurabilityForType -> m_266425_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/ForestCamoItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/ArmorMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6230_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/ForestCamoItem$1/getEnchantmentValue()I from net/minecraft/world/item/ArmorMaterial/getEnchantmentValue()I: getEnchantmentValue -> m_6646_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/ForestCamoItem$1/getKnockbackResistance()F from net/minecraft/world/item/ArmorMaterial/getKnockbackResistance()F: getKnockbackResistance -> m_6649_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/ForestCamoItem$1/getToughness()F from net/minecraft/world/item/ArmorMaterial/getToughness()F: getToughness -> m_6651_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/ForestCamoItem$1/getName()Ljava/lang/String; from net/minecraft/world/item/ArmorMaterial/getName()Ljava/lang/String;: getName -> m_6082_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/ForestCamoItem$1/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDefenseForType -> m_7366_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/ForestCamoItem$1/getEquipSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/item/ArmorMaterial/getEquipSound()Lnet/minecraft/sounds/SoundEvent;: getEquipSound -> m_7344_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/ForestCamoItem$1/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDurabilityForType -> m_266425_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/GrayBootsItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/ArmorMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6230_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/GrayBootsItem$1/getEnchantmentValue()I from net/minecraft/world/item/ArmorMaterial/getEnchantmentValue()I: getEnchantmentValue -> m_6646_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/GrayBootsItem$1/getKnockbackResistance()F from net/minecraft/world/item/ArmorMaterial/getKnockbackResistance()F: getKnockbackResistance -> m_6649_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/GrayBootsItem$1/getToughness()F from net/minecraft/world/item/ArmorMaterial/getToughness()F: getToughness -> m_6651_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/GrayBootsItem$1/getName()Ljava/lang/String; from net/minecraft/world/item/ArmorMaterial/getName()Ljava/lang/String;: getName -> m_6082_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/GrayBootsItem$1/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDefenseForType -> m_7366_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/GrayBootsItem$1/getEquipSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/item/ArmorMaterial/getEquipSound()Lnet/minecraft/sounds/SoundEvent;: getEquipSound -> m_7344_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/GrayBootsItem$1/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDurabilityForType -> m_266425_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/GreenBootsItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/ArmorMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6230_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/GreenBootsItem$1/getEnchantmentValue()I from net/minecraft/world/item/ArmorMaterial/getEnchantmentValue()I: getEnchantmentValue -> m_6646_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/GreenBootsItem$1/getKnockbackResistance()F from net/minecraft/world/item/ArmorMaterial/getKnockbackResistance()F: getKnockbackResistance -> m_6649_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/GreenBootsItem$1/getToughness()F from net/minecraft/world/item/ArmorMaterial/getToughness()F: getToughness -> m_6651_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/GreenBootsItem$1/getName()Ljava/lang/String; from net/minecraft/world/item/ArmorMaterial/getName()Ljava/lang/String;: getName -> m_6082_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/GreenBootsItem$1/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDefenseForType -> m_7366_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/GreenBootsItem$1/getEquipSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/item/ArmorMaterial/getEquipSound()Lnet/minecraft/sounds/SoundEvent;: getEquipSound -> m_7344_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/GreenBootsItem$1/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDurabilityForType -> m_266425_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/MesaCamoItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/ArmorMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6230_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/MesaCamoItem$1/getEnchantmentValue()I from net/minecraft/world/item/ArmorMaterial/getEnchantmentValue()I: getEnchantmentValue -> m_6646_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/MesaCamoItem$1/getKnockbackResistance()F from net/minecraft/world/item/ArmorMaterial/getKnockbackResistance()F: getKnockbackResistance -> m_6649_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/MesaCamoItem$1/getToughness()F from net/minecraft/world/item/ArmorMaterial/getToughness()F: getToughness -> m_6651_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/MesaCamoItem$1/getName()Ljava/lang/String; from net/minecraft/world/item/ArmorMaterial/getName()Ljava/lang/String;: getName -> m_6082_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/MesaCamoItem$1/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDefenseForType -> m_7366_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/MesaCamoItem$1/getEquipSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/item/ArmorMaterial/getEquipSound()Lnet/minecraft/sounds/SoundEvent;: getEquipSound -> m_7344_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/MesaCamoItem$1/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDurabilityForType -> m_266425_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/OfficerItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/ArmorMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6230_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/OfficerItem$1/getEnchantmentValue()I from net/minecraft/world/item/ArmorMaterial/getEnchantmentValue()I: getEnchantmentValue -> m_6646_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/OfficerItem$1/getKnockbackResistance()F from net/minecraft/world/item/ArmorMaterial/getKnockbackResistance()F: getKnockbackResistance -> m_6649_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/OfficerItem$1/getToughness()F from net/minecraft/world/item/ArmorMaterial/getToughness()F: getToughness -> m_6651_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/OfficerItem$1/getName()Ljava/lang/String; from net/minecraft/world/item/ArmorMaterial/getName()Ljava/lang/String;: getName -> m_6082_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/OfficerItem$1/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDefenseForType -> m_7366_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/OfficerItem$1/getEquipSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/item/ArmorMaterial/getEquipSound()Lnet/minecraft/sounds/SoundEvent;: getEquipSound -> m_7344_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/OfficerItem$1/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDurabilityForType -> m_266425_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/PlainsCamoItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/ArmorMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6230_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/PlainsCamoItem$1/getEnchantmentValue()I from net/minecraft/world/item/ArmorMaterial/getEnchantmentValue()I: getEnchantmentValue -> m_6646_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/PlainsCamoItem$1/getKnockbackResistance()F from net/minecraft/world/item/ArmorMaterial/getKnockbackResistance()F: getKnockbackResistance -> m_6649_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/PlainsCamoItem$1/getToughness()F from net/minecraft/world/item/ArmorMaterial/getToughness()F: getToughness -> m_6651_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/PlainsCamoItem$1/getName()Ljava/lang/String; from net/minecraft/world/item/ArmorMaterial/getName()Ljava/lang/String;: getName -> m_6082_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/PlainsCamoItem$1/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDefenseForType -> m_7366_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/PlainsCamoItem$1/getEquipSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/item/ArmorMaterial/getEquipSound()Lnet/minecraft/sounds/SoundEvent;: getEquipSound -> m_7344_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/PlainsCamoItem$1/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDurabilityForType -> m_266425_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/RedcoatItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/ArmorMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6230_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/RedcoatItem$1/getEnchantmentValue()I from net/minecraft/world/item/ArmorMaterial/getEnchantmentValue()I: getEnchantmentValue -> m_6646_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/RedcoatItem$1/getKnockbackResistance()F from net/minecraft/world/item/ArmorMaterial/getKnockbackResistance()F: getKnockbackResistance -> m_6649_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/RedcoatItem$1/getToughness()F from net/minecraft/world/item/ArmorMaterial/getToughness()F: getToughness -> m_6651_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/RedcoatItem$1/getName()Ljava/lang/String; from net/minecraft/world/item/ArmorMaterial/getName()Ljava/lang/String;: getName -> m_6082_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/RedcoatItem$1/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDefenseForType -> m_7366_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/RedcoatItem$1/getEquipSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/item/ArmorMaterial/getEquipSound()Lnet/minecraft/sounds/SoundEvent;: getEquipSound -> m_7344_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/RedcoatItem$1/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDurabilityForType -> m_266425_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/SavannaCamoItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/ArmorMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6230_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/SavannaCamoItem$1/getEnchantmentValue()I from net/minecraft/world/item/ArmorMaterial/getEnchantmentValue()I: getEnchantmentValue -> m_6646_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/SavannaCamoItem$1/getKnockbackResistance()F from net/minecraft/world/item/ArmorMaterial/getKnockbackResistance()F: getKnockbackResistance -> m_6649_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/SavannaCamoItem$1/getToughness()F from net/minecraft/world/item/ArmorMaterial/getToughness()F: getToughness -> m_6651_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/SavannaCamoItem$1/getName()Ljava/lang/String; from net/minecraft/world/item/ArmorMaterial/getName()Ljava/lang/String;: getName -> m_6082_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/SavannaCamoItem$1/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDefenseForType -> m_7366_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/SavannaCamoItem$1/getEquipSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/item/ArmorMaterial/getEquipSound()Lnet/minecraft/sounds/SoundEvent;: getEquipSound -> m_7344_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/SavannaCamoItem$1/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDurabilityForType -> m_266425_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/SnowCamoItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/ArmorMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6230_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/SnowCamoItem$1/getEnchantmentValue()I from net/minecraft/world/item/ArmorMaterial/getEnchantmentValue()I: getEnchantmentValue -> m_6646_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/SnowCamoItem$1/getKnockbackResistance()F from net/minecraft/world/item/ArmorMaterial/getKnockbackResistance()F: getKnockbackResistance -> m_6649_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/SnowCamoItem$1/getToughness()F from net/minecraft/world/item/ArmorMaterial/getToughness()F: getToughness -> m_6651_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/SnowCamoItem$1/getName()Ljava/lang/String; from net/minecraft/world/item/ArmorMaterial/getName()Ljava/lang/String;: getName -> m_6082_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/SnowCamoItem$1/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDefenseForType -> m_7366_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/SnowCamoItem$1/getEquipSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/item/ArmorMaterial/getEquipSound()Lnet/minecraft/sounds/SoundEvent;: getEquipSound -> m_7344_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/SnowCamoItem$1/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDurabilityForType -> m_266425_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/TaigaCamoItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/ArmorMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6230_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/TaigaCamoItem$1/getEnchantmentValue()I from net/minecraft/world/item/ArmorMaterial/getEnchantmentValue()I: getEnchantmentValue -> m_6646_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/TaigaCamoItem$1/getKnockbackResistance()F from net/minecraft/world/item/ArmorMaterial/getKnockbackResistance()F: getKnockbackResistance -> m_6649_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/TaigaCamoItem$1/getToughness()F from net/minecraft/world/item/ArmorMaterial/getToughness()F: getToughness -> m_6651_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/TaigaCamoItem$1/getName()Ljava/lang/String; from net/minecraft/world/item/ArmorMaterial/getName()Ljava/lang/String;: getName -> m_6082_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/TaigaCamoItem$1/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDefenseForType -> m_7366_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/TaigaCamoItem$1/getEquipSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/item/ArmorMaterial/getEquipSound()Lnet/minecraft/sounds/SoundEvent;: getEquipSound -> m_7344_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/TaigaCamoItem$1/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDurabilityForType -> m_266425_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/TricornItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/ArmorMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6230_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/TricornItem$1/getEnchantmentValue()I from net/minecraft/world/item/ArmorMaterial/getEnchantmentValue()I: getEnchantmentValue -> m_6646_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/TricornItem$1/getKnockbackResistance()F from net/minecraft/world/item/ArmorMaterial/getKnockbackResistance()F: getKnockbackResistance -> m_6649_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/TricornItem$1/getToughness()F from net/minecraft/world/item/ArmorMaterial/getToughness()F: getToughness -> m_6651_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/TricornItem$1/getName()Ljava/lang/String; from net/minecraft/world/item/ArmorMaterial/getName()Ljava/lang/String;: getName -> m_6082_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/TricornItem$1/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDefenseForType -> m_7366_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/TricornItem$1/getEquipSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/item/ArmorMaterial/getEquipSound()Lnet/minecraft/sounds/SoundEvent;: getEquipSound -> m_7344_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/TricornItem$1/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDurabilityForType -> m_266425_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/WaterCamoItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/ArmorMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6230_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/WaterCamoItem$1/getEnchantmentValue()I from net/minecraft/world/item/ArmorMaterial/getEnchantmentValue()I: getEnchantmentValue -> m_6646_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/WaterCamoItem$1/getKnockbackResistance()F from net/minecraft/world/item/ArmorMaterial/getKnockbackResistance()F: getKnockbackResistance -> m_6649_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/WaterCamoItem$1/getToughness()F from net/minecraft/world/item/ArmorMaterial/getToughness()F: getToughness -> m_6651_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/WaterCamoItem$1/getName()Ljava/lang/String; from net/minecraft/world/item/ArmorMaterial/getName()Ljava/lang/String;: getName -> m_6082_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/WaterCamoItem$1/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDefenseForType -> m_7366_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/WaterCamoItem$1/getEquipSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/item/ArmorMaterial/getEquipSound()Lnet/minecraft/sounds/SoundEvent;: getEquipSound -> m_7344_
+Conflicting propagated mapping for net/ceoofgoogle/createrealguns/item/WaterCamoItem$1/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDurabilityForType -> m_266425_
+Adding extras
+Sorting
+Writing Output: C:\Users\David\Documents\GitHub\CreateRealGuns\build\reobfJar\output.jar
+  META-INF/
+  META-INF/MANIFEST.MF
+  META-INF/mods.toml
+  assets/
+  assets/createclothes/
+  assets/createclothes/lang/
+  assets/createclothes/lang/en_us.json
+  assets/createclothes/lang/pt_br.json
+  assets/createclothes/lang/pt_pt.json
+  assets/createclothes/lang/ru_ru.json
+  assets/createclothes/models/
+  assets/createclothes/models/item/
+  assets/createclothes/models/item/black_boots.json
+  assets/createclothes/models/item/brown_boots.json
+  assets/createclothes/models/item/bucket_hat.json
+  assets/createclothes/models/item/cap.json
+  assets/createclothes/models/item/cloth.json
+  assets/createclothes/models/item/crown.json
+  assets/createclothes/models/item/desert_boots.json
+  assets/createclothes/models/item/desert_cloth.json
+  assets/createclothes/models/item/desert_helmet.json
+  assets/createclothes/models/item/desert_pants.json
+  assets/createclothes/models/item/desert_tunic.json
+  assets/createclothes/models/item/dirt_boots.json
+  assets/createclothes/models/item/dirt_cloth.json
+  assets/createclothes/models/item/dirt_helmet.json
+  assets/createclothes/models/item/dirt_pants.json
+  assets/createclothes/models/item/dirt_tunic.json
+  assets/createclothes/models/item/forest_boots.json
+  assets/createclothes/models/item/forest_cloth.json
+  assets/createclothes/models/item/forest_helmet.json
+  assets/createclothes/models/item/forest_pants.json
+  assets/createclothes/models/item/forest_vest.json
+  assets/createclothes/models/item/gray_boots.json
+  assets/createclothes/models/item/green_boots.json
+  assets/createclothes/models/item/mesa_boots.json
+  assets/createclothes/models/item/mesa_cloth.json
+  assets/createclothes/models/item/mesa_helmet.json
+  assets/createclothes/models/item/mesa_pants.json
+  assets/createclothes/models/item/mesa_tunic.json
+  assets/createclothes/models/item/officer_cap.json
+  assets/createclothes/models/item/officer_tunic.json
+  assets/createclothes/models/item/plains_boots.json
+  assets/createclothes/models/item/plains_cloth.json
+  assets/createclothes/models/item/plains_helmet.json
+  assets/createclothes/models/item/plains_pants.json
+  assets/createclothes/models/item/plains_tunic.json
+  assets/createclothes/models/item/redcoat.json
+  assets/createclothes/models/item/savanna_boots.json
+  assets/createclothes/models/item/savanna_cloth.json
+  assets/createclothes/models/item/savanna_helmet.json
+  assets/createclothes/models/item/savanna_pants.json
+  assets/createclothes/models/item/savanna_tunic.json
+  assets/createclothes/models/item/snow_boots.json
+  assets/createclothes/models/item/snow_cloth.json
+  assets/createclothes/models/item/snow_coat.json
+  assets/createclothes/models/item/snow_helmet.json
+  assets/createclothes/models/item/snow_pants.json
+  assets/createclothes/models/item/sturdy_cloth.json
+  assets/createclothes/models/item/taiga_boots.json
+  assets/createclothes/models/item/taiga_cloth.json
+  assets/createclothes/models/item/taiga_helmet.json
+  assets/createclothes/models/item/taiga_pants.json
+  assets/createclothes/models/item/taiga_tunic.json
+  assets/createclothes/models/item/tricorn.json
+  assets/createclothes/models/item/water_boots.json
+  assets/createclothes/models/item/water_cloth.json
+  assets/createclothes/models/item/water_helmet.json
+  assets/createclothes/models/item/water_pants.json
+  assets/createclothes/models/item/water_tunic.json
+  assets/createclothes/textures/
+  assets/createclothes/textures/item/
+  assets/createclothes/textures/item/black_boots.png
+  assets/createclothes/textures/item/brown_boots.png
+  assets/createclothes/textures/item/bucket_hat.png
+  assets/createclothes/textures/item/cap.png
+  assets/createclothes/textures/item/cloth.png
+  assets/createclothes/textures/item/crown.png
+  assets/createclothes/textures/item/desert_boots.png
+  assets/createclothes/textures/item/desert_cloth.png
+  assets/createclothes/textures/item/desert_helmet.png
+  assets/createclothes/textures/item/desert_pants.png
+  assets/createclothes/textures/item/desert_tunic.png
+  assets/createclothes/textures/item/dirt_boots.png
+  assets/createclothes/textures/item/dirt_cloth.png
+  assets/createclothes/textures/item/dirt_helmet.png
+  assets/createclothes/textures/item/dirt_pants.png
+  assets/createclothes/textures/item/dirt_tunic.png
+  assets/createclothes/textures/item/forest_boots.png
+  assets/createclothes/textures/item/forest_cloth.png
+  assets/createclothes/textures/item/forest_helmet.png
+  assets/createclothes/textures/item/forest_pants.png
+  assets/createclothes/textures/item/forest_vest.png
+  assets/createclothes/textures/item/gray_boots.png
+  assets/createclothes/textures/item/green_boots.png
+  assets/createclothes/textures/item/mesa_boots.png
+  assets/createclothes/textures/item/mesa_cloth.png
+  assets/createclothes/textures/item/mesa_helmet.png
+  assets/createclothes/textures/item/mesa_pants.png
+  assets/createclothes/textures/item/mesa_tunic.png
+  assets/createclothes/textures/item/officer_cap.png
+  assets/createclothes/textures/item/officer_tunic.png
+  assets/createclothes/textures/item/plains_boots.png
+  assets/createclothes/textures/item/plains_cloth.png
+  assets/createclothes/textures/item/plains_helmet.png
+  assets/createclothes/textures/item/plains_pants.png
+  assets/createclothes/textures/item/plains_tunic.png
+  assets/createclothes/textures/item/redcoat.png
+  assets/createclothes/textures/item/savanna_boots.png
+  assets/createclothes/textures/item/savanna_cloth.png
+  assets/createclothes/textures/item/savanna_helmet.png
+  assets/createclothes/textures/item/savanna_pants.png
+  assets/createclothes/textures/item/savanna_tunic.png
+  assets/createclothes/textures/item/snow_boots.png
+  assets/createclothes/textures/item/snow_cloth.png
+  assets/createclothes/textures/item/snow_coat.png
+  assets/createclothes/textures/item/snow_helmet.png
+  assets/createclothes/textures/item/snow_pants.png
+  assets/createclothes/textures/item/sturdy_cloth.png
+  assets/createclothes/textures/item/taiga_boots.png
+  assets/createclothes/textures/item/taiga_cloth.png
+  assets/createclothes/textures/item/taiga_helmet.png
+  assets/createclothes/textures/item/taiga_pants.png
+  assets/createclothes/textures/item/taiga_tunic.png
+  assets/createclothes/textures/item/tricorn.png
+  assets/createclothes/textures/item/water_boots.png
+  assets/createclothes/textures/item/water_cloth.png
+  assets/createclothes/textures/item/water_helmet.png
+  assets/createclothes/textures/item/water_pants.png
+  assets/createclothes/textures/item/water_tunic.png
+  assets/createclothes/textures/models/
+  assets/createclothes/textures/models/armor/
+  assets/createclothes/textures/models/armor/black_boots.png
+  assets/createclothes/textures/models/armor/brown_boots.png
+  assets/createclothes/textures/models/armor/bucket_hat.png
+  assets/createclothes/textures/models/armor/cap.png
+  assets/createclothes/textures/models/armor/crown.png
+  assets/createclothes/textures/models/armor/desert_layer_1.png
+  assets/createclothes/textures/models/armor/desert_layer_2.png
+  assets/createclothes/textures/models/armor/dirt_layer_1.png
+  assets/createclothes/textures/models/armor/dirt_layer_2.png
+  assets/createclothes/textures/models/armor/forest_layer_1.png
+  assets/createclothes/textures/models/armor/forest_layer_2.png
+  assets/createclothes/textures/models/armor/gray_boots.png
+  assets/createclothes/textures/models/armor/green_boots.png
+  assets/createclothes/textures/models/armor/mesa_layer_1.png
+  assets/createclothes/textures/models/armor/mesa_layer_2.png
+  assets/createclothes/textures/models/armor/officer_cap.png
+  assets/createclothes/textures/models/armor/officer_tunic.png
+  assets/createclothes/textures/models/armor/plains_layer_1.png
+  assets/createclothes/textures/models/armor/plains_layer_2.png
+  assets/createclothes/textures/models/armor/redcoat.png
+  assets/createclothes/textures/models/armor/savanna_layer_1.png
+  assets/createclothes/textures/models/armor/savanna_layer_2.png
+  assets/createclothes/textures/models/armor/snow_layer_1.png
+  assets/createclothes/textures/models/armor/snow_layer_2.png
+  assets/createclothes/textures/models/armor/taiga_layer_1.png
+  assets/createclothes/textures/models/armor/taiga_layer_2.png
+  assets/createclothes/textures/models/armor/tricorn.png
+  assets/createclothes/textures/models/armor/water_layer_1.png
+  assets/createclothes/textures/models/armor/water_layer_2.png
+  data/
+  data/createclothes/
+  data/createclothes/recipes/
+  data/createclothes/recipes/cutting/
+  data/createclothes/recipes/cutting/black_boots.json
+  data/createclothes/recipes/cutting/brown_boots.json
+  data/createclothes/recipes/cutting/cap.json
+  data/createclothes/recipes/cutting/desert_pants.json
+  data/createclothes/recipes/cutting/desert_tunic.json
+  data/createclothes/recipes/cutting/dirt_pants.json
+  data/createclothes/recipes/cutting/dirt_tunic.json
+  data/createclothes/recipes/cutting/forest_pants.json
+  data/createclothes/recipes/cutting/forest_vest.json
+  data/createclothes/recipes/cutting/gray_boots.json
+  data/createclothes/recipes/cutting/green_boots.json
+  data/createclothes/recipes/cutting/mesa_pants.json
+  data/createclothes/recipes/cutting/mesa_tunic.json
+  data/createclothes/recipes/cutting/officer_cap.json
+  data/createclothes/recipes/cutting/officer_tunic.json
+  data/createclothes/recipes/cutting/plains_pants.json
+  data/createclothes/recipes/cutting/plains_tunic.json
+  data/createclothes/recipes/cutting/redcoat.json
+  data/createclothes/recipes/cutting/savanna_pants.json
+  data/createclothes/recipes/cutting/savanna_tunic.json
+  data/createclothes/recipes/cutting/snow_coat.json
+  data/createclothes/recipes/cutting/snow_pants.json
+  data/createclothes/recipes/cutting/taiga_pants.json
+  data/createclothes/recipes/cutting/taiga_tunic.json
+  data/createclothes/recipes/cutting/tricorn.json
+  data/createclothes/recipes/cutting/water_pants.json
+  data/createclothes/recipes/cutting/water_tunic.json
+  data/createclothes/recipes/desert_cloth.json
+  data/createclothes/recipes/dirt_cloth.json
+  data/createclothes/recipes/forest_cloth.json
+  data/createclothes/recipes/mesa_cloth.json
+  data/createclothes/recipes/plains_cloth.json
+  data/createclothes/recipes/savanna_cloth.json
+  data/createclothes/recipes/sequenced_assembly/
+  data/createclothes/recipes/sequenced_assembly/desert_helmet.json
+  data/createclothes/recipes/sequenced_assembly/dirt_helmet.json
+  data/createclothes/recipes/sequenced_assembly/forest_helmet.json
+  data/createclothes/recipes/sequenced_assembly/mesa_helmet.json
+  data/createclothes/recipes/sequenced_assembly/plains_helmet.json
+  data/createclothes/recipes/sequenced_assembly/savanna_helmet.json
+  data/createclothes/recipes/sequenced_assembly/snow_helmet.json
+  data/createclothes/recipes/sequenced_assembly/sturdy_cloth.json
+  data/createclothes/recipes/sequenced_assembly/taiga_helmet.json
+  data/createclothes/recipes/sequenced_assembly/water_helmet.json
+  data/createclothes/recipes/shaped/
+  data/createclothes/recipes/shaped/bucket_hat.json
+  data/createclothes/recipes/shaped/crown.json
+  data/createclothes/recipes/shaped/fern_cloth.json
+  data/createclothes/recipes/shaped/leather_cloth.json
+  data/createclothes/recipes/shaped/wool_cloth.json
+  data/createclothes/recipes/snow_cloth.json
+  data/createclothes/recipes/taiga_cloth.json
+  data/createclothes/recipes/water_cloth.json
+  data/minecraft/
+  data/minecraft/tags/
+  data/minecraft/tags/items/
+  data/minecraft/tags/items/dyes.json
+  net/
+  net/ceoofgoogle/
+  net/ceoofgoogle/createrealguns/
+  net/ceoofgoogle/createrealguns/CreateRealGuns.class
+  net/ceoofgoogle/createrealguns/init/
+  net/ceoofgoogle/createrealguns/init/CreateRealGunsModItems.class
+  net/ceoofgoogle/createrealguns/init/CreateRealGunsModModels.class
+  net/ceoofgoogle/createrealguns/init/CreateRealGunsModTabs.class
+  net/ceoofgoogle/createrealguns/item/
+  net/ceoofgoogle/createrealguns/item/BlackBootsItem$1.class
+  net/ceoofgoogle/createrealguns/item/BlackBootsItem$Boots.class
+  net/ceoofgoogle/createrealguns/item/BlackBootsItem.class
+  net/ceoofgoogle/createrealguns/item/BrownBootsItem$1.class
+  net/ceoofgoogle/createrealguns/item/BrownBootsItem$Boots.class
+  net/ceoofgoogle/createrealguns/item/BrownBootsItem.class
+  net/ceoofgoogle/createrealguns/item/BucketHatItem$1.class
+  net/ceoofgoogle/createrealguns/item/BucketHatItem$Helmet$1.class
+  net/ceoofgoogle/createrealguns/item/BucketHatItem$Helmet.class
+  net/ceoofgoogle/createrealguns/item/BucketHatItem.class
+  net/ceoofgoogle/createrealguns/item/CapItem$1.class
+  net/ceoofgoogle/createrealguns/item/CapItem$Helmet$1.class
+  net/ceoofgoogle/createrealguns/item/CapItem$Helmet.class
+  net/ceoofgoogle/createrealguns/item/CapItem.class
+  net/ceoofgoogle/createrealguns/item/CrownItem$1.class
+  net/ceoofgoogle/createrealguns/item/CrownItem$Helmet$1.class
+  net/ceoofgoogle/createrealguns/item/CrownItem$Helmet.class
+  net/ceoofgoogle/createrealguns/item/CrownItem.class
+  net/ceoofgoogle/createrealguns/item/DesertCamoItem$1.class
+  net/ceoofgoogle/createrealguns/item/DesertCamoItem$Boots.class
+  net/ceoofgoogle/createrealguns/item/DesertCamoItem$Chestplate$1.class
+  net/ceoofgoogle/createrealguns/item/DesertCamoItem$Chestplate.class
+  net/ceoofgoogle/createrealguns/item/DesertCamoItem$Helmet$1.class
+  net/ceoofgoogle/createrealguns/item/DesertCamoItem$Helmet.class
+  net/ceoofgoogle/createrealguns/item/DesertCamoItem$Leggings.class
+  net/ceoofgoogle/createrealguns/item/DesertCamoItem.class
+  net/ceoofgoogle/createrealguns/item/DirtCamoItem$1.class
+  net/ceoofgoogle/createrealguns/item/DirtCamoItem$Boots.class
+  net/ceoofgoogle/createrealguns/item/DirtCamoItem$Chestplate$1.class
+  net/ceoofgoogle/createrealguns/item/DirtCamoItem$Chestplate.class
+  net/ceoofgoogle/createrealguns/item/DirtCamoItem$Helmet$1.class
+  net/ceoofgoogle/createrealguns/item/DirtCamoItem$Helmet.class
+  net/ceoofgoogle/createrealguns/item/DirtCamoItem$Leggings.class
+  net/ceoofgoogle/createrealguns/item/DirtCamoItem.class
+  net/ceoofgoogle/createrealguns/item/ForestCamoItem$1.class
+  net/ceoofgoogle/createrealguns/item/ForestCamoItem$Boots.class
+  net/ceoofgoogle/createrealguns/item/ForestCamoItem$Chestplate$1.class
+  net/ceoofgoogle/createrealguns/item/ForestCamoItem$Chestplate.class
+  net/ceoofgoogle/createrealguns/item/ForestCamoItem$Helmet$1.class
+  net/ceoofgoogle/createrealguns/item/ForestCamoItem$Helmet.class
+  net/ceoofgoogle/createrealguns/item/ForestCamoItem$Leggings.class
+  net/ceoofgoogle/createrealguns/item/ForestCamoItem.class
+  net/ceoofgoogle/createrealguns/item/GrayBootsItem$1.class
+  net/ceoofgoogle/createrealguns/item/GrayBootsItem$Boots.class
+  net/ceoofgoogle/createrealguns/item/GrayBootsItem.class
+  net/ceoofgoogle/createrealguns/item/GreenBootsItem$1.class
+  net/ceoofgoogle/createrealguns/item/GreenBootsItem$Boots.class
+  net/ceoofgoogle/createrealguns/item/GreenBootsItem.class
+  net/ceoofgoogle/createrealguns/item/MesaCamoItem$1.class
+  net/ceoofgoogle/createrealguns/item/MesaCamoItem$Boots.class
+  net/ceoofgoogle/createrealguns/item/MesaCamoItem$Chestplate$1.class
+  net/ceoofgoogle/createrealguns/item/MesaCamoItem$Chestplate.class
+  net/ceoofgoogle/createrealguns/item/MesaCamoItem$Helmet$1.class
+  net/ceoofgoogle/createrealguns/item/MesaCamoItem$Helmet.class
+  net/ceoofgoogle/createrealguns/item/MesaCamoItem$Leggings.class
+  net/ceoofgoogle/createrealguns/item/MesaCamoItem.class
+  net/ceoofgoogle/createrealguns/item/OfficerItem$1.class
+  net/ceoofgoogle/createrealguns/item/OfficerItem$Chestplate$1.class
+  net/ceoofgoogle/createrealguns/item/OfficerItem$Chestplate.class
+  net/ceoofgoogle/createrealguns/item/OfficerItem$Helmet$1.class
+  net/ceoofgoogle/createrealguns/item/OfficerItem$Helmet.class
+  net/ceoofgoogle/createrealguns/item/OfficerItem.class
+  net/ceoofgoogle/createrealguns/item/PlainsCamoItem$1.class
+  net/ceoofgoogle/createrealguns/item/PlainsCamoItem$Boots.class
+  net/ceoofgoogle/createrealguns/item/PlainsCamoItem$Chestplate$1.class
+  net/ceoofgoogle/createrealguns/item/PlainsCamoItem$Chestplate.class
+  net/ceoofgoogle/createrealguns/item/PlainsCamoItem$Helmet$1.class
+  net/ceoofgoogle/createrealguns/item/PlainsCamoItem$Helmet.class
+  net/ceoofgoogle/createrealguns/item/PlainsCamoItem$Leggings.class
+  net/ceoofgoogle/createrealguns/item/PlainsCamoItem.class
+  net/ceoofgoogle/createrealguns/item/RedcoatItem$1.class
+  net/ceoofgoogle/createrealguns/item/RedcoatItem$Chestplate$1.class
+  net/ceoofgoogle/createrealguns/item/RedcoatItem$Chestplate.class
+  net/ceoofgoogle/createrealguns/item/RedcoatItem.class
+  net/ceoofgoogle/createrealguns/item/SavannaCamoItem$1.class
+  net/ceoofgoogle/createrealguns/item/SavannaCamoItem$Boots.class
+  net/ceoofgoogle/createrealguns/item/SavannaCamoItem$Chestplate$1.class
+  net/ceoofgoogle/createrealguns/item/SavannaCamoItem$Chestplate.class
+  net/ceoofgoogle/createrealguns/item/SavannaCamoItem$Helmet$1.class
+  net/ceoofgoogle/createrealguns/item/SavannaCamoItem$Helmet.class
+  net/ceoofgoogle/createrealguns/item/SavannaCamoItem$Leggings.class
+  net/ceoofgoogle/createrealguns/item/SavannaCamoItem.class
+  net/ceoofgoogle/createrealguns/item/SnowCamoItem$1.class
+  net/ceoofgoogle/createrealguns/item/SnowCamoItem$Boots.class
+  net/ceoofgoogle/createrealguns/item/SnowCamoItem$Chestplate$1.class
+  net/ceoofgoogle/createrealguns/item/SnowCamoItem$Chestplate.class
+  net/ceoofgoogle/createrealguns/item/SnowCamoItem$Helmet$1.class
+  net/ceoofgoogle/createrealguns/item/SnowCamoItem$Helmet.class
+  net/ceoofgoogle/createrealguns/item/SnowCamoItem$Leggings.class
+  net/ceoofgoogle/createrealguns/item/SnowCamoItem.class
+  net/ceoofgoogle/createrealguns/item/TaigaCamoItem$1.class
+  net/ceoofgoogle/createrealguns/item/TaigaCamoItem$Boots.class
+  net/ceoofgoogle/createrealguns/item/TaigaCamoItem$Chestplate$1.class
+  net/ceoofgoogle/createrealguns/item/TaigaCamoItem$Chestplate.class
+  net/ceoofgoogle/createrealguns/item/TaigaCamoItem$Helmet$1.class
+  net/ceoofgoogle/createrealguns/item/TaigaCamoItem$Helmet.class
+  net/ceoofgoogle/createrealguns/item/TaigaCamoItem$Leggings.class
+  net/ceoofgoogle/createrealguns/item/TaigaCamoItem.class
+  net/ceoofgoogle/createrealguns/item/TricornItem$1.class
+  net/ceoofgoogle/createrealguns/item/TricornItem$Helmet$1.class
+  net/ceoofgoogle/createrealguns/item/TricornItem$Helmet.class
+  net/ceoofgoogle/createrealguns/item/TricornItem.class
+  net/ceoofgoogle/createrealguns/item/WaterCamoItem$1.class
+  net/ceoofgoogle/createrealguns/item/WaterCamoItem$Boots.class
+  net/ceoofgoogle/createrealguns/item/WaterCamoItem$Chestplate$1.class
+  net/ceoofgoogle/createrealguns/item/WaterCamoItem$Chestplate.class
+  net/ceoofgoogle/createrealguns/item/WaterCamoItem$Helmet$1.class
+  net/ceoofgoogle/createrealguns/item/WaterCamoItem$Helmet.class
+  net/ceoofgoogle/createrealguns/item/WaterCamoItem$Leggings.class
+  net/ceoofgoogle/createrealguns/item/WaterCamoItem.class
+  net/ceoofgoogle/createrealguns/model/
+  net/ceoofgoogle/createrealguns/model/ModelBucketHat.class
+  net/ceoofgoogle/createrealguns/model/ModelCap.class
+  net/ceoofgoogle/createrealguns/model/ModelCoat.class
+  net/ceoofgoogle/createrealguns/model/ModelCrown.class
+  net/ceoofgoogle/createrealguns/model/ModelHelmet.class
+  net/ceoofgoogle/createrealguns/model/ModelOfficerCap.class
+  net/ceoofgoogle/createrealguns/model/ModelTricorn.class
+  net/ceoofgoogle/createrealguns/model/ModelTunic.class
+  net/ceoofgoogle/createrealguns/model/ModelVest.class
+  pack.mcmeta

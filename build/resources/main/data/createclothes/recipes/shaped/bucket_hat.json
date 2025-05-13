@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "pattern": [
+    " P ",
+    "PPP"
+  ],
+  "result": {
+    "item": "createrealguns:bucket_hat"
+  },
+  "show_notification": true
+}

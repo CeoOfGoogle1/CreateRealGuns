@@ -1,0 +1,48 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createrealguns:water_cloth"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "createrealguns:water_helmet"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createrealguns:water_helmet"
+        },
+        [
+          {
+            "tag": "forge:plates/iron"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "createrealguns:water_helmet"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createrealguns:water_helmet"
+        }
+      ],
+      "results": [
+        {
+          "item": "createrealguns:water_helmet"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "createrealguns:water_helmet"
+  }
+}

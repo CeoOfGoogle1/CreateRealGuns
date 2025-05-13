@@ -1,0 +1,75 @@
+{
+  "item.createrealguns.crown": "Корона",
+  "item.createrealguns.bucket_hat": "Соломенная шляпа",
+  "item.createrealguns.cap": "Кепка",
+
+  "item.createrealguns.officer_cap": "Офицерская фуражка",
+  "item.createrealguns.officer_tunic": "Офицерский китель",
+
+  "item.createrealguns.tricorn": "Треуголка",
+  "item.createrealguns.redcoat": "Красный мундир",
+
+  "item.createrealguns.black_boots": "Чёрные ботинки",
+  "item.createrealguns.gray_boots": "Серые ботинки",
+  "item.createrealguns.brown_boots": "Коричневые ботинки",
+  "item.createrealguns.green_boots": "Зелёные ботинки",
+
+  "item.createrealguns.plains_helmet": "Камуфляжный шлем \"Равнины\"",
+  "item.createrealguns.plains_tunic": "Камуфляжная куртка \"Равнины\"",
+  "item.createrealguns.plains_pants": "Камуфляжные штаны \"Равнины\"",
+  "item.createrealguns.plains_boots": "Камуфляжные ботинки \"Равнины\"",
+
+  "item.createrealguns.forest_helmet": "Камуфляжный шлем \"Лес\"",
+  "item.createrealguns.forest_vest": "Камуфляжная куртка \"Лес\"",
+  "item.createrealguns.forest_pants": "Камуфляжные штаны \"Лес\"",
+  "item.createrealguns.forest_boots": "Камуфляжные ботинки \"Лес\"",
+
+  "item.createrealguns.taiga_helmet": "Камуфляжный шлем \"Тайга\"",
+  "item.createrealguns.taiga_tunic": "Камуфляжная куртка \"Тайга\"",
+  "item.createrealguns.taiga_pants": "Камуфляжные штаны \"Тайга\"",
+  "item.createrealguns.taiga_boots": "Камуфляжные ботинки \"Тайга\"",
+
+  "item.createrealguns.savanna_helmet": "Камуфляжный шлем \"Саванна\"",
+  "item.createrealguns.savanna_tunic": "Камуфляжная куртка \"Саванна\"",
+  "item.createrealguns.savanna_pants": "Камуфляжные штаны \"Саванна\"",
+  "item.createrealguns.savanna_boots": "Камуфляжные ботинки \"Саванна\"",
+
+  "item.createrealguns.desert_helmet": "Камуфляжный шлем \"Пустыня\"",
+  "item.createrealguns.desert_tunic": "Камуфляжная куртка \"Пустыня\"",
+  "item.createrealguns.desert_pants": "Камуфляжные штаны \"Пустыня\"",
+  "item.createrealguns.desert_boots": "Камуфляжные ботинки \"Пустыня\"",
+
+  "item.createrealguns.snow_helmet": "Камуфляжный шлем \"Снег\"",
+  "item.createrealguns.snow_coat": "Камуфляжная куртка \"Снег\"",
+  "item.createrealguns.snow_pants": "Камуфляжные штаны \"Снег\"",
+  "item.createrealguns.snow_boots": "Камуфляжные ботинки \"Снег\"",
+
+  "item.createrealguns.water_helmet": "Камуфляжный шлем \"Вода\"",
+  "item.createrealguns.water_tunic": "Камуфляжная куртка \"Вода\"",
+  "item.createrealguns.water_pants": "Камуфляжные штаны \"Вода\"",
+  "item.createrealguns.water_boots": "Камуфляжные ботинки \"Вода\"",
+
+  "item.createrealguns.mesa_helmet": "Камуфляжный шлем \"Бесплодные земли\"",
+  "item.createrealguns.mesa_tunic": "Камуфляжная куртка \"Бесплодные земли\"",
+  "item.createrealguns.mesa_pants": "Камуфляжные штаны \"Бесплодные земли\"",
+  "item.createrealguns.mesa_boots": "Камуфляжные ботинки \"Бесплодные земли\"",
+
+  "item.createrealguns.dirt_helmet": "Камуфляжный шлем \"Земля\"",
+  "item.createrealguns.dirt_tunic": "Камуфляжная куртка \"Земля\"",
+  "item.createrealguns.dirt_pants": "Камуфляжные штаны \"Земля\"",
+  "item.createrealguns.dirt_boots": "Камуфляжные ботинки \"Земля\"",
+
+  "item.createrealguns.cloth": "Камуфляжная ткань",
+  "item.createrealguns.sturdy_cloth": "Упрочнённая камуфляжная ткань",
+  "item.createrealguns.plains_cloth": "Камуфляжная ткань \"Равнины\"",
+  "item.createrealguns.forest_cloth": "Камуфляжная ткань \"Лес\"",
+  "item.createrealguns.taiga_cloth": "Камуфляжная ткань \"Тайга\"",
+  "item.createrealguns.savanna_cloth": "Камуфляжная ткань \"Саванна\"",
+  "item.createrealguns.desert_cloth": "Камуфляжная ткань \"Пустыня\"",
+  "item.createrealguns.snow_cloth": "Камуфляжная ткань \"Снег\"",
+  "item.createrealguns.water_cloth": "Камуфляжная ткань \"Вода\"",
+  "item.createrealguns.mesa_cloth": "Камуфляжная ткань \"Бесплодные земли\"",
+  "item.createrealguns.dirt_cloth": "Камуфляжная ткань \"Земля\"",
+
+  "creativetab.create_real_guns": "Create: Real Guns"
+}

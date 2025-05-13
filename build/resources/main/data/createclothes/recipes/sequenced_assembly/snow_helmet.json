@@ -1,0 +1,48 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createrealguns:snow_cloth"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "createrealguns:snow_helmet"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createrealguns:snow_helmet"
+        },
+        [
+          {
+            "tag": "forge:plates/iron"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "createrealguns:snow_helmet"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createrealguns:snow_helmet"
+        }
+      ],
+      "results": [
+        {
+          "item": "createrealguns:snow_helmet"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "createrealguns:snow_helmet"
+  }
+}
