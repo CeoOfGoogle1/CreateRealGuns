@@ -1,0 +1,73 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "createrealguns:item/grenade_cartridge",
+		"particle": "createrealguns:item/grenade_cartridge"
+	},
+	"elements": [
+		{
+			"from": [6.75, 0, 6.75],
+			"to": [9.25, 3, 9.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [12.75, -2, 13.75]},
+			"faces": {
+				"north": {"uv": [0, 3, 3, 6], "texture": "#0"},
+				"east": {"uv": [3, 3, 0, 6], "texture": "#0"},
+				"south": {"uv": [0, 3, 3, 6], "texture": "#0"},
+				"west": {"uv": [3, 3, 0, 6], "texture": "#0"},
+				"up": {"uv": [3, 3, 0, 0], "texture": "#0"},
+				"down": {"uv": [0, 6, 3, 9], "texture": "#0"}
+			}
+		},
+		{
+			"from": [6.75, 3, 6.75],
+			"to": [9.25, 5.5, 9.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [12.75, 3, 13.75]},
+			"faces": {
+				"north": {"uv": [9, 3, 12, 6], "texture": "#0"},
+				"east": {"uv": [12, 3, 9, 6], "texture": "#0"},
+				"south": {"uv": [9, 3, 12, 6], "texture": "#0"},
+				"west": {"uv": [12, 3, 9, 6], "texture": "#0"},
+				"up": {"uv": [9, 3, 12, 0], "texture": "#0"},
+				"down": {"uv": [9, 6, 12, 9], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 45, 0],
+			"translation": [0, 3.25, -0.75]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 45, 0],
+			"translation": [0, 3.25, -0.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"translation": [7, 5, -4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 45, 0],
+			"translation": [7, 5, -4]
+		},
+		"ground": {
+			"translation": [0, 4.5, 0]
+		},
+		"gui": {
+			"rotation": [30, 45, 0],
+			"translation": [0, 9, 0],
+			"scale": [2, 2, 2]
+		},
+		"fixed": {
+			"translation": [0, 16, 0],
+			"scale": [3, 3, 3]
+		}
+	},
+	"groups": [
+		{
+			"name": "grenadeammo",
+			"origin": [3, 0, 6],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}
