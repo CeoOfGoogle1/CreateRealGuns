@@ -1,0 +1,18 @@
+{
+  "item.inter_ammo.fire": {
+    "subtitle": "subtitle.inter_ammo.fire",
+    "sounds": [
+      {"name":"createrealguns:intermediate"}
+    ]
+  },
+  "item.fullpower": {
+    "subtitle": "subtitle.fullpower.fire",
+    "sounds": [
+      {"name": "createrealguns:fullpower"}
+    ]
+  },
+  "item.rocket.launch": {
+    "subtitle": "subtitle.rocket.fire",
+    "sounds": [{"name": "createrealguns:rocket_launch"}]
+  }
+}

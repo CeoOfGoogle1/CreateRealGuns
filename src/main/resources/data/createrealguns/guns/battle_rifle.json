@@ -1,0 +1,46 @@
+{
+  "general": {
+    "rate": 6,
+    "damage": 4.0,
+    "gripType": "ntgl:two_handed",
+    "maxAmmo": 20,
+    "ammo": [
+      "createrealguns:full_power_cartridge"
+    ],
+    "fireMode": [
+      "ntgl:auto"
+    ],
+    "loadingType": "ntgl:magazine",
+    "reloadTime": 60,
+    "reloadAmount": 20,
+    "autoReload": false,
+    "recoilAngle": 7.0,
+    "recoilKick": 0.4,
+    "recoilAdsReduction": 0.15
+  },
+  "rendering": {
+    "model": "createrealguns:geo/guns/battle_rifle.geo.json",
+    "texture": "createrealguns:textures/guns/battle_rifle/texture.png"
+  },
+  "projectiles": {
+    "createrealguns:full_power_cartridge": {
+      "projectile": "ntgl:bullet",
+      "damage": 2.0,
+      "speed": 1.0,
+      "spread": 4.0,
+      "projectileAmount": 1
+    }
+  },
+  "sounds": {
+    "fire": "createrealguns:item.fullpower",
+    "reload": "ntgl:reload"
+  },
+  "modules": {
+    "zoom": {
+      "xOffset": 0.0,
+      "yOffset": 3.2,
+      "zOffset": 0.0,
+      "fovModifier": 0.7
+    }
+  }
+}
