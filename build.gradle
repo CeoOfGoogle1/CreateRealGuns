@@ -33,7 +33,9 @@ minecraft {
     // Use non-default mappings at your own risk. They may not always work.
     // Simply re-run your setup task after changing the mappings to update your workspace.
     mappings channel: mapping_channel, version: mapping_version
-
+    mixin {
+        add sourceSets.main, "assets.createrealguns.META-INF.mixin.json"
+    }
     // When true, this property will have all Eclipse/IntelliJ IDEA run configurations run the "prepareX" task for the given run configuration before launching the game.
     // In most cases, it is not necessary to enable.
     // enableEclipsePrepareRuns = true
@@ -143,10 +145,10 @@ dependencies {
     // then special handling is done to allow a setup of a vanilla dependency without the use of an external repository.
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
     implementation fg.deobf("curse.maven:nukateams-gun-lib-998474:6670935")
-    implementation fg.deobf("software.bernie.geckolib:geckolib-forge-${minecraft_version}:${geckolib_version}")
+    //implementation fg.deobf("software.bernie.geckolib:geckolib-forge-${minecraft_version}:${geckolib_version}")
     // For some versions, you may also need:
     implementation("com.eliotlash.mclib:mclib:20")
-    implementation fg.deobf("curse.maven:azurelib-817423:6801627")
+    implementation fg.deobf("curse.maven:azurelib-817423:6652099")
     implementation fg.deobf("curse.maven:framework-549225:5911986")
     //implementation(fg.deobf("com.simibubi.create:create-${minecraft_version}:${create_version}:slim") { transitive = false })
     //implementation(fg.deobf("net.createmod.ponder:Ponder-Forge-${minecraft_version}:${ponder_version}"))

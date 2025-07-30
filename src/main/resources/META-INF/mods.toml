@@ -55,12 +55,13 @@ description='''${mod_description}'''
     versionRange="${minecraft_version_range}"
     ordering="NONE"
     side="BOTH"
-[[dependencies.createrealguns]]
-modId="geckolib"
-mandatory=true
-versionRange="[4.7.1.2]"
-ordering="NONE"
-side="BOTH"
+#
+#[[dependencies.createrealguns]]
+#modId="geckolib"
+#mandatory=true
+#versionRange="[4.7.1.2]"
+#ordering="NONE"
+#side="BOTH"
 [[dependencies.createrealguns]]
 modId = "ntgl"
 mandatory = true
@@ -74,4 +75,6 @@ side = "BOTH"
    # versionRange="[6.0.3,6.1.0)"
     #ordering="NONE"
     #side="BOTH"
+mixinConfigs = ["net.ceoofgoogle.createrealguns.mixin.json"]
+
 

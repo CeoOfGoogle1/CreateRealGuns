@@ -1,0 +1,12 @@
+{
+  "visible": true,
+  "magazineMode": false,
+  "damage": 200.0,
+  "size": 0.2,
+  "speed": 1,
+  "life": 7000,
+  "spread": 4.0,
+  "projectileAmount": 1,
+  "type": "ntgl:explosive",
+  "projectile": "ntgl:missile"
+}

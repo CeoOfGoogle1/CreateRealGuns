@@ -35,6 +35,8 @@ public class CreateRealGunsModTabs {
                 tabData.accept((ItemLike) CreateRealGunsModItems.SMOKE_GRENADE_CARTRIDGE.get());
                 tabData.accept((ItemLike) CreateRealGunsModItems.STUN_GRENADE_CARTRIDGE.get());
                 tabData.accept((ItemLike) CreateRealGunsModItems.ROCKET_CARTRIDGE.get());
+                tabData.accept((ItemLike)CreateRealGunsModItems.BATTLE_RIFLE.get());
+                tabData.accept((ItemLike)CreateRealGunsModItems.BAZOOKA.get());
             }).build();
         });
     }
