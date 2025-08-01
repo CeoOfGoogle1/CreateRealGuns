@@ -14,6 +14,6 @@ public abstract class MissileRendererMixin {
      */
     @Overwrite
     public ResourceLocation getTextureLocation(MissileEntity entity) {
-        return new ResourceLocation("createrealguns", "assets/createrealguns/textures/rocket_cartridge.png");
+        return new ResourceLocation("createrealguns", "assets/createrealguns/textures/ammo/rocket_cartridge.png");
     }
 }

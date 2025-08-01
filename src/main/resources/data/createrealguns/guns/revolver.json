@@ -1,0 +1,33 @@
+{
+  "general": {
+    "rate": 6,
+    "damage": 4.0,
+    "gripType": "ntgl:two_handed",
+    "maxAmmo": 6,
+    "ammo": [
+      "createrealguns:full_power_cartridge"
+    ],
+    "fireMode": [
+      "ntgl:semi"
+    ],
+    "loadingType": "ntgl:per_cartridge",
+    "reloadTime": 60,
+    "reloadAmount": 1,
+    "autoReload": false,
+    "recoilAngle": 7.0,
+    "recoilKick": 0.4,
+    "recoilAdsReduction": 0.15
+  },
+  "sounds": {
+    "fire": "createrealguns:item.fullpower",
+    "reload": "ntgl:reload"
+  },
+  "modules": {
+    "zoom": {
+      "xOffset": 0.0,
+      "yOffset": 3.2,
+      "zOffset": 0.0,
+      "fovModifier": 0.7
+    }
+  }
+}

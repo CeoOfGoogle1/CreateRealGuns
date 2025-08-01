@@ -42,18 +42,11 @@ authors="CeoOfGoogle" #optional
 description='''Example mod description.
 Newline characters can be used and will be replaced properly.'''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
-[[dependencies.createrealguns]] #optional
-    # the modid of the dependency
-    modId="forge" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=true #mandatory
-    # The version range of the dependency
-    versionRange="[47,)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the dependency is not mandatory
-    # BEFORE - This mod is loaded BEFORE the dependency
-    # AFTER - This mod is loaded AFTER the dependency
+[[dependencies.createrealguns]] #
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
     ordering="NONE"
-    # Side this dependency is applied on - BOTH, CLIENT, or SERVER
     side="BOTH"
 # Here's another dependency
 [[dependencies.createrealguns]]
@@ -63,21 +56,26 @@ Newline characters can be used and will be replaced properly.'''
     versionRange="[1.20.1,1.21)"
     ordering="NONE"
     side="BOTH"
+#
+#[[dependencies.createrealguns]]
+#modId="geckolib"
+#mandatory=true
+#versionRange="[4.7.1.2]"
+#ordering="NONE"
+#side="BOTH"
 [[dependencies.createrealguns]]
-modId="geckolib"
-mandatory=true
-versionRange="[4.7.1.2]"
-ordering="NONE"
-side="BOTH"
+modId = "ntgl"
+mandatory = true
+versionRange = "[1.20.1-1.10.1]"
+ordering = "NONE"
+side = "BOTH"
+
 #[[dependencies.createrealguns]]
  #   modId="create"
   #  mandatory=true
    # versionRange="[6.0.3,6.1.0)"
     #ordering="NONE"
     #side="BOTH"
+mixinConfigs = ["net.ceoofgoogle.createrealguns.mixin.json"]
 
-# Features are specific properties of the game environment, that you may want to declare you require. This example declares
-# that your mod requires GL version 3.2 or higher. Other features will be added. They are side aware so declaring this won't
-# stop your mod loading on the server for example.
-#[features.createrealguns]
-#openGLVersion="[3.2,)"
+

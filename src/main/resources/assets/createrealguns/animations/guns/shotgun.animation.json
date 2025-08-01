@@ -1,11 +1,11 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.marlin.idle": {
+		"hold": {
 			"loop": true,
 			"animation_length": 2
 		},
-		"animation.marlin.run": {
+		"run": {
 			"loop": true,
 			"animation_length": 0.8,
 			"bones": {
@@ -72,7 +72,7 @@
 				}
 			}
 		},
-		"animation.marlin.run_fast": {
+		"run_fast": {
 			"loop": true,
 			"animation_length": 0.7,
 			"bones": {
@@ -209,7 +209,7 @@
 				}
 			}
 		},
-		"animation.marlin.shift": {
+		"shift": {
 			"loop": "hold_on_last_frame",
 			"animation_length": 0.6,
 			"bones": {
@@ -299,7 +299,7 @@
 				}
 			}
 		},
-		"animation.marlin.prepare": {
+		"prepare": {
 			"loop": "hold_on_last_frame",
 			"animation_length": 0.2583,
 			"bones": {
@@ -341,7 +341,7 @@
 				}
 			}
 		},
-		"animation.marlin.iterativeload": {
+		"iterativeload": {
 			"animation_length": 0.8333,
 			"bones": {
 				"0": {
@@ -437,7 +437,7 @@
 				}
 			}
 		},
-		"animation.marlin.iterativeload2": {
+		"iterativeload2": {
 			"animation_length": 0.8333,
 			"bones": {
 				"0": {
@@ -533,7 +533,20 @@
 				}
 			}
 		},
-		"animation.marlin.finish": {
+		"shot": {
+			"animation_length": 0.1,
+			"bones": {
+				"0": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"finish": {
 			"loop": "hold_on_last_frame",
 			"animation_length": 1,
 			"bones": {

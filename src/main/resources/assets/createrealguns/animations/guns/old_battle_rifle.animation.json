@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"static_idle": {
+		"hold": {
 			"animation_length": 0.05,
 			"bones": {
 				"lefthand": {
@@ -538,7 +538,7 @@
 				}
 			}
 		},
-		"reload_empty": {
+		"reload": {
 			"animation_length": 2.7,
 			"bones": {
 				"lefthand": {
@@ -2238,7 +2238,7 @@
 				}
 			}
 		},
-		"shoot": {
+		"shot": {
 			"loop": true,
 			"animation_length": 0.83333,
 			"bones": {
@@ -2381,6 +2381,16 @@
 							"lerp_mode": "catmullrom"
 						}
 					}
+				},
+				"lefthand": {
+					"rotation": [99.13767, -21.82367, -128.45709],
+					"position": [7.4, -15.2, -6.5],
+					"scale": [1, 1.5, 1]
+				},
+				"righthand": {
+					"rotation": [95, 0, -180],
+					"position": [-6.2, -17, 7],
+					"scale": [1, 1.5, 1]
 				}
 			}
 		}

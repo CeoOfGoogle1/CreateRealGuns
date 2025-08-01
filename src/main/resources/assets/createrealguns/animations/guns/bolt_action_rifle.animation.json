@@ -1,10 +1,10 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.k98.idle": {
+		"hold": {
 			"animation_length": 1
 		},
-		"animation.k98.draw": {
+		"draw": {
 			"animation_length": 1,
 			"bones": {
 				"0": {
@@ -42,7 +42,7 @@
 				}
 			}
 		},
-		"animation.k98.run": {
+		"run": {
 			"loop": true,
 			"animation_length": 0.8,
 			"bones": {
@@ -117,7 +117,7 @@
 				}
 			}
 		},
-		"animation.k98.run_fast": {
+		"run_fast": {
 			"loop": true,
 			"animation_length": 0.7,
 			"bones": {
@@ -207,7 +207,7 @@
 				}
 			}
 		},
-		"animation.k98.fire": {
+		"shot": {
 			"loop": "hold_on_last_frame",
 			"animation_length": 0.202,
 			"bones": {
@@ -224,7 +224,7 @@
 				}
 			}
 		},
-		"animation.k98.shift": {
+		"shift": {
 			"loop": "hold_on_last_frame",
 			"animation_length": 1.1,
 			"override_previous_animation": true,
@@ -566,7 +566,7 @@
 				}
 			}
 		},
-		"animation.k98.reload_empty": {
+		"reload": {
 			"loop": "hold_on_last_frame",
 			"animation_length": 3,
 			"override_previous_animation": true,
@@ -808,7 +808,7 @@
 				}
 			}
 		},
-		"animation.k98.prepare": {
+		"prepare": {
 			"loop": "hold_on_last_frame",
 			"animation_length": 2,
 			"override_previous_animation": true,
@@ -1192,7 +1192,7 @@
 				}
 			}
 		},
-		"animation.k98.iterativeload": {
+		"iterativeload": {
 			"loop": true,
 			"animation_length": 0.75,
 			"override_previous_animation": true,
@@ -1298,7 +1298,7 @@
 				}
 			}
 		},
-		"animation.k98.iterativeload2": {
+		"iterativeload2": {
 			"loop": true,
 			"animation_length": 0.75,
 			"override_previous_animation": true,
@@ -1404,7 +1404,7 @@
 				}
 			}
 		},
-		"animation.k98.finish": {
+		"finish": {
 			"loop": "hold_on_last_frame",
 			"animation_length": 1.25,
 			"override_previous_animation": true,

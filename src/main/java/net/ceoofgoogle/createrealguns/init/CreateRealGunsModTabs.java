@@ -37,6 +37,19 @@ public class CreateRealGunsModTabs {
                 tabData.accept((ItemLike) CreateRealGunsModItems.ROCKET_CARTRIDGE.get());
                 tabData.accept((ItemLike)CreateRealGunsModItems.BATTLE_RIFLE.get());
                 tabData.accept((ItemLike)CreateRealGunsModItems.BAZOOKA.get());
+                tabData.accept((ItemLike)CreateRealGunsModItems.BOLT_ACTION_RIFLE.get());
+                tabData.accept((ItemLike)CreateRealGunsModItems.CLASSIC_ASSAULT_RIFLE.get());
+                tabData.accept((ItemLike)CreateRealGunsModItems.MODERN_ASSAULT_RIFLE.get());
+                tabData.accept((ItemLike)CreateRealGunsModItems.MODERN_SMG.get());
+                tabData.accept((ItemLike)CreateRealGunsModItems.OLD_BATTLE_RIFLE.get());
+                tabData.accept((ItemLike)CreateRealGunsModItems.OLD_SMG.get());
+                tabData.accept((ItemLike)CreateRealGunsModItems.PISTOL.get());
+                tabData.accept((ItemLike)CreateRealGunsModItems.RAPID_SMG.get());
+                tabData.accept((ItemLike)CreateRealGunsModItems.REVOLVER.get());
+                tabData.accept((ItemLike)CreateRealGunsModItems.RPG.get());
+                tabData.accept((ItemLike)CreateRealGunsModItems.SHOTGUN.get());
+                tabData.accept((ItemLike)CreateRealGunsModItems.THUMPER.get());
+
             }).build();
         });
     }

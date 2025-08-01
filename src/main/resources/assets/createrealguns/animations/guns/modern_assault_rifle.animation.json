@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"static_idle": {
+		"hold": {
 			"animation_length": 0.1,
 			"bones": {
 				"lefthand": {
@@ -689,7 +689,7 @@
 				}
 			}
 		},
-		"reload_empty": {
+		"reload": {
 			"animation_length": 3.1,
 			"bones": {
 				"lefthand": {
@@ -3273,7 +3273,7 @@
 				}
 			}
 		},
-		"shoot": {
+		"shot": {
 			"animation_length": 0.6333,
 			"bones": {
 				"root": {
@@ -3346,6 +3346,16 @@
 						"0.2667": [0.1, 0.1, 0.25],
 						"0.4333": [0, 0, 0]
 					}
+				},
+				"lefthand": {
+					"rotation": [99.10245, -28.39169, -137.40361],
+					"position": [8.025, -11.85, -4.95],
+					"scale": [1, 1.5, 1]
+				},
+				"righthand": {
+					"rotation": [92.4939, 3.99619, -180.17476],
+					"position": [-6.9, -14.125, 8.425],
+					"scale": [1, 1.5, 1]
 				}
 			}
 		}
