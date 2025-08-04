@@ -1,5 +1,6 @@
 {
 	"credit": "Made with Blockbench",
+	"parent": "shotgun_shell",
 	"textures": {
 		"0": "createrealguns:item/cartridge",
 		"particle": "createrealguns:item/cartridge"
