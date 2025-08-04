@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "battle_rifle",
+	"parent": "builtin/entity",
 	"textures": {
 		"default" : "assets/createrealguns/textures/guns/battle_rifle/battle_rifle.png",
 		"particle": "item/iron_ingot"

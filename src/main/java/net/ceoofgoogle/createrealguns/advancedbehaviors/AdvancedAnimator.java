@@ -9,21 +9,24 @@ import com.nukateam.ntgl.common.base.utils.EquipTracker;
 import com.nukateam.ntgl.common.data.config.gun.Gun;
 import com.nukateam.ntgl.common.util.util.GunData;
 import com.nukateam.ntgl.common.util.util.GunModifierHelper;
-import mod.azure.azurelib.core.animation.Animation;
-import mod.azure.azurelib.core.animation.AnimationController;
-import mod.azure.azurelib.core.animation.AnimationState;
-import mod.azure.azurelib.core.animation.RawAnimation;
+import mod.azure.azurelib.constant.DataTickets;
+import mod.azure.azurelib.core.animatable.GeoAnimatable;
+import mod.azure.azurelib.core.animation.*;
 import mod.azure.azurelib.core.object.PlayState;
 
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemDisplayContext;
 
 
 public class AdvancedAnimator extends GunAnimator {
+
     public AdvancedAnimator(ItemDisplayContext transformType, DynamicGeoItemRenderer<GunAnimator> renderer) {
         super(transformType, renderer);
+
     }
+
     @Override
     protected AnimationController.AnimationStateHandler<GunAnimator> animate() {
         return (event) -> {
@@ -48,10 +51,12 @@ public class AdvancedAnimator extends GunAnimator {
 
                     if (this.fireDelay > 0 && data.fireTimer > 0 && this.fireDelay != data.fireTimer) {
                         animation = this.getChargingAnimation(event, data);
+
                     } else if (this.reloadHandler.isReloading(entity, this.arm) && TransformUtils.isFirstPerson(this.transformType)) {
                         int ammo = Gun.getAmmo(itemStack);
                         if(ammo == 0){
                             animation = getReloadingAnimation(event);
+
                         } else{
                             animation = getTacReloadAnimation(event);
                         }
@@ -69,6 +74,8 @@ public class AdvancedAnimator extends GunAnimator {
                         }
                     } else if (this.currentGun == this.getGunItem()) {
                         animation = holdAnimation;
+                    }else if( Gun.getAmmo(itemStack) == 0){
+                        animation = this.getEmptyHoldAnimation(event);
                     } else {
                         this.currentGun = this.getGunItem();
                         animation = this.playGunAnim("shot", Animation.LoopType.LOOP);
@@ -81,7 +88,26 @@ public class AdvancedAnimator extends GunAnimator {
             }
         };
     }
+    @Override
+    public void registerControllers(AnimatableManager.ControllerRegistrar controllerRegistrar) {
+        controllerRegistrar.add(new AnimationController<>(this, "gui_controller", 0, this::guiPredicate));
+        controllerRegistrar.add(new AnimationController[]{this.MAIN_CONTROLLER});
+        controllerRegistrar.add(new AnimationController[]{this.TRIGGER_CONTROLLER});
+        controllerRegistrar.add(new AnimationController[]{this.REVOLVER_CONTROLLER});
+        controllerRegistrar.add(new AnimationController[]{this.BARREL_CONTROLLER});
+    }
 
+    private <T extends GeoAnimatable> PlayState guiPredicate(AnimationState<T> state) {
+        if (state.getData(DataTickets.ITEM_RENDER_PERSPECTIVE) == ItemDisplayContext.GUI) {
+            state.setAnimation(RawAnimation.begin().then("hide_arms", Animation.LoopType.LOOP));
+            return PlayState.CONTINUE;
+        }
+
+        return PlayState.STOP;
+    }
+    protected RawAnimation getEmptyHoldAnimation(AnimationState<GunAnimator> event){
+        return this.playGunAnim("hold_empty", Animation.LoopType.LOOP);
+    }
    protected RawAnimation getTacReloadAnimation(AnimationState<GunAnimator> event) {
        GunData data = this.getGunData();
        int time = GunModifierHelper.getReloadTime(data);

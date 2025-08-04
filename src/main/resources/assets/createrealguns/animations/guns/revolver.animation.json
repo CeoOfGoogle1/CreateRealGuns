@@ -1408,6 +1408,21 @@
 					}
 				}
 			}
+		},
+		"hide_arms": {
+			"loop": true,
+			"bones": {
+				"lefthand_pos": {
+					"scale": {
+						"vector": [0, 0, 1]
+					}
+				},
+				"righthand_pos": {
+					"scale": {
+						"vector": [1, 0, 0]
+					}
+				}
+			}
 		}
 	}
 }

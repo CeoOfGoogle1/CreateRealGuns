@@ -5,6 +5,21 @@
 			"loop": true,
 			"animation_length": 2
 		},
+		"hide_arms": {
+			"loop": true,
+			"bones": {
+				"lefthand_pos": {
+					"scale": {
+						"vector": [0, 0, 1]
+					}
+				},
+				"righthand_pos": {
+					"scale": {
+						"vector": [1, 0, 0]
+					}
+				}
+			}
+		},
 		"draw": {
 			"animation_length": 1,
 			"bones": {

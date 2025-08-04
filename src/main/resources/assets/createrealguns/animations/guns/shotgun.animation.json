@@ -634,6 +634,21 @@
 					}
 				}
 			}
+		},
+		"hide_arms": {
+			"loop": true,
+			"bones": {
+				"Lefthand": {
+					"scale": {
+						"vector": [0, 0, 1]
+					}
+				},
+				"Righthand": {
+					"scale": {
+						"vector": [1, 0, 0]
+					}
+				}
+			}
 		}
 	},
 	"geckolib_format_version": 2
